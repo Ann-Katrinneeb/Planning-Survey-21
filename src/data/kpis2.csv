@@ -1,0 +1,1148 @@
+Peer,vendor,KPI,value
+All products,Alteryx,Business benefits,10
+All products,Dataiku,Business benefits,9.326954285
+All products,IBM SPSS/WS,Business benefits,3.691724258
+All products,IBM SPSS/WS/CA,Business benefits,1.626251485
+All products,Microsoft Azure/Server,Business benefits,1
+All products,Microsoft Power BI,Business benefits,6.418491074
+All products,Qlik,Business benefits,9.761968917
+All products,RapidMiner,Business benefits,2.338834624
+All products,SAS,Business benefits,2.154789973
+All products,Tableau,Business benefits,2.124115864
+All products,Peer Group Average,Business benefits,4.844313048
+All products,Alteryx,Project success,9.878621379
+All products,Dataiku,Project success,10
+All products,IBM SPSS/WS,Project success,3.821590175
+All products,IBM SPSS/WS/CA,Project success,1.795508839
+All products,Microsoft Azure/Server,Project success,1.465416936
+All products,Microsoft Power BI,Project success,4.214285714
+All products,Qlik,Project success,7.32967033
+All products,RapidMiner,Project success,4.659340659
+All products,SAS,Project success,1
+All products,Tableau,Project success,6.513736264
+All products,Peer Group Average,Project success,5.06781703
+All products,Alteryx,Project length,10
+All products,Dataiku,Project length,8.961992136
+All products,IBM SPSS/WS,Project length,6.697247706
+All products,IBM SPSS/WS/CA,Project length,3.724770642
+All products,Microsoft Azure/Server,Project length,6.697247706
+All products,Microsoft Power BI,Project length,5.187418087
+All products,Qlik,Project length,4.71559633
+All products,RapidMiner,Project length,7.19266055
+All products,SAS,Project length,1.743119266
+All products,Tableau,Project length,1
+All products,Peer Group Average,Project length,5.592005242
+All products,Alteryx,Business value,9.95954046
+All products,Dataiku,Business value,9.490475832
+All products,IBM SPSS/WS,Business value,4.235933472
+All products,IBM SPSS/WS/CA,Business value,2.032423796
+All products,Microsoft Azure/Server,Business value,2.104680263
+All products,Microsoft Power BI,Business value,5.478577123
+All products,Qlik,Business value,8.110140623
+All products,RapidMiner,Business value,3.921307624
+All products,SAS,Business value,1.701248197
+All products,Tableau,Business value,3.39997002
+All products,Peer Group Average,Business value,5.043429741
+All products,Alteryx,Price-to-value,8.209872979
+All products,Dataiku,Price-to-value,7.413724843
+All products,IBM SPSS/WS,Price-to-value,8.716512702
+All products,IBM SPSS/WS/CA,Price-to-value,7.928406467
+All products,Microsoft Azure/Server,Price-to-value,8.140334194
+All products,Microsoft Power BI,Price-to-value,10
+All products,Qlik,Price-to-value,9.459584296
+All products,RapidMiner,Price-to-value,5.178923058
+All products,SAS,Price-to-value,1
+All products,Tableau,Price-to-value,7.671065655
+All products,Peer Group Average,Price-to-value,7.371842419
+All products,Alteryx,Recommendation,10
+All products,Dataiku,Recommendation,8.972027972
+All products,IBM SPSS/WS,Recommendation,7.576923077
+All products,IBM SPSS/WS/CA,Recommendation,4.732441472
+All products,Microsoft Azure/Server,Recommendation,1.162895928
+All products,Microsoft Power BI,Recommendation,6.916083916
+All products,Qlik,Recommendation,6.538461538
+All products,RapidMiner,Recommendation,3.769230769
+All products,SAS,Recommendation,1
+All products,Tableau,Recommendation,5.961538462
+All products,Peer Group Average,Recommendation,5.662960313
+All products,Alteryx,Vendor support,10
+All products,Dataiku,Vendor support,9.1
+All products,IBM SPSS/WS,Vendor support,1.707142857
+All products,IBM SPSS/WS/CA,Vendor support,1
+All products,Microsoft Azure/Server,Vendor support,5.885714286
+All products,Microsoft Power BI,Vendor support,5.073684211
+All products,Qlik,Vendor support,4.278571429
+All products,RapidMiner,Vendor support,4.6
+All products,SAS,Vendor support,3.042307692
+All products,Tableau,Vendor support,8.271052632
+All products,Peer Group Average,Vendor support,5.295847311
+All products,Alteryx,Product satisfaction,6.832
+All products,Dataiku,Product satisfaction,10
+All products,IBM SPSS/WS,Product satisfaction,2.08
+All products,IBM SPSS/WS/CA,Product satisfaction,2.08
+All products,Microsoft Azure/Server,Product satisfaction,9.208
+All products,Microsoft Power BI,Product satisfaction,9.208
+All products,Qlik,Product satisfaction,4.456
+All products,RapidMiner,Product satisfaction,6.649230769
+All products,SAS,Product satisfaction,1
+All products,Tableau,Product satisfaction,4.821538462
+All products,Peer Group Average,Product satisfaction,5.633476923
+All products,Alteryx,Customer satisfaction,8.546193995
+All products,Dataiku,Customer satisfaction,8.982614845
+All products,IBM SPSS/WS,Customer satisfaction,5.345659721
+All products,IBM SPSS/WS/CA,Customer satisfaction,4.143793039
+All products,Microsoft Azure/Server,Customer satisfaction,5.919896717
+All products,Microsoft Power BI,Customer satisfaction,8.160659551
+All products,Qlik,Customer satisfaction,6.242347182
+All products,RapidMiner,Customer satisfaction,5.134803415
+All products,SAS,Customer satisfaction,1.226923077
+All products,Tableau,Customer satisfaction,6.218046079
+All products,Peer Group Average,Customer satisfaction,5.992093762
+All products,Alteryx,Ease of use,9.265698843
+All products,Dataiku,Ease of use,10
+All products,IBM SPSS/WS,Ease of use,5.011872471
+All products,IBM SPSS/WS/CA,Ease of use,4.853736972
+All products,Microsoft Azure/Server,Ease of use,3.846148016
+All products,Microsoft Power BI,Ease of use,4.610530603
+All products,Qlik,Ease of use,2.371494579
+All products,RapidMiner,Ease of use,8.641208041
+All products,SAS,Ease of use,1
+All products,Tableau,Ease of use,5.136744039
+All products,Peer Group Average,Ease of use,5.473743356
+All products,Alteryx,Code-free usage,10
+All products,Dataiku,Code-free usage,9.580489214
+All products,IBM SPSS/WS,Code-free usage,3.999451738
+All products,IBM SPSS/WS/CA,Code-free usage,5.524253958
+All products,Microsoft Azure/Server,Code-free usage,2.438309539
+All products,Microsoft Power BI,Code-free usage,4.019854589
+All products,Qlik,Code-free usage,1.28858463
+All products,RapidMiner,Code-free usage,8.441112893
+All products,SAS,Code-free usage,1
+All products,Tableau,Code-free usage,6.212597192
+All products,Peer Group Average,Code-free usage,5.250465375
+All products,Alteryx,User guidance,10
+All products,Dataiku,User guidance,9.87245841
+All products,IBM SPSS/WS,User guidance,8.852125693
+All products,IBM SPSS/WS/CA,User guidance,8.852125693
+All products,Microsoft Azure/Server,User guidance,5.791127542
+All products,Microsoft Power BI,User guidance,5.791127542
+All products,Qlik,User guidance,5.791127542
+All products,RapidMiner,User guidance,7.831792976
+All products,SAS,User guidance,1
+All products,Tableau,User guidance,9.464325323
+All products,Peer Group Average,User guidance,7.324621072
+All products,Alteryx,Collaboration,6.764044944
+All products,Dataiku,Collaboration,10
+All products,IBM SPSS/WS,Collaboration,7.13964687
+All products,IBM SPSS/WS/CA,Collaboration,5.657007688
+All products,Microsoft Azure/Server,Collaboration,7.97752809
+All products,Microsoft Power BI,Collaboration,5.550561798
+All products,Qlik,Collaboration,7.573033708
+All products,RapidMiner,Collaboration,7.106309421
+All products,SAS,Collaboration,1
+All products,Tableau,Collaboration,3.93258427
+All products,Peer Group Average,Collaboration,6.270071679
+All products,Alteryx,Openness,4.117897217
+All products,Dataiku,Openness,10
+All products,IBM SPSS/WS,Openness,6.000017431
+All products,IBM SPSS/WS/CA,Openness,5.463313651
+All products,Microsoft Azure/Server,Openness,8.127642194
+All products,Microsoft Power BI,Openness,4.829690679
+All products,Qlik,Openness,1
+All products,RapidMiner,Openness,4.080254813
+All products,SAS,Openness,1.034291931
+All products,Tableau,Openness,1.05915235
+All products,Peer Group Average,Openness,4.571226026
+All products,Alteryx,User experience,6.979786902
+All products,Dataiku,User experience,9.758106362
+All products,IBM SPSS/WS,User experience,5.762849092
+All products,IBM SPSS/WS/CA,User experience,5.384510205
+All products,Microsoft Azure/Server,User experience,5.845573103
+All products,Microsoft Power BI,User experience,4.687871141
+All products,Qlik,User experience,3.163334648
+All products,RapidMiner,User experience,6.343880018
+All products,SAS,User experience,1.010287579
+All products,Tableau,User experience,3.905028843
+All products,Peer Group Average,User experience,5.284122789
+All products,Alteryx,Performance satisfaction,10
+All products,Dataiku,Performance satisfaction,3.68683308
+All products,IBM SPSS/WS,Performance satisfaction,1
+All products,IBM SPSS/WS/CA,Performance satisfaction,3.160158243
+All products,Microsoft Azure/Server,Performance satisfaction,4.77757255
+All products,Microsoft Power BI,Performance satisfaction,6.609799935
+All products,Qlik,Performance satisfaction,5.832417378
+All products,RapidMiner,Performance satisfaction,7.250464542
+All products,SAS,Performance satisfaction,4.285425032
+All products,Tableau,Performance satisfaction,6.23432532
+All products,Peer Group Average,Performance satisfaction,5.283699608
+All products,Alteryx,Data volume,10
+All products,Dataiku,Data volume,6.181611954
+All products,IBM SPSS/WS,Data volume,3.738461784
+All products,IBM SPSS/WS/CA,Data volume,4.122836123
+All products,Microsoft Azure/Server,Data volume,8.198676675
+All products,Microsoft Power BI,Data volume,6.101718473
+All products,Qlik,Data volume,8.184795549
+All products,RapidMiner,Data volume,3.183849959
+All products,SAS,Data volume,7.411786827
+All products,Tableau,Data volume,1
+All products,Peer Group Average,Data volume,5.812373735
+All products,Alteryx,Data variety,8.392273788
+All products,Dataiku,Data variety,9.221415608
+All products,IBM SPSS/WS,Data variety,1.226955774
+All products,IBM SPSS/WS/CA,Data variety,1
+All products,Microsoft Azure/Server,Data variety,9.687733533
+All products,Microsoft Power BI,Data variety,10
+All products,Qlik,Data variety,5.94529427
+All products,RapidMiner,Data variety,3.943220119
+All products,SAS,Data variety,2.552890848
+All products,Tableau,Data variety,1.134754991
+All products,Peer Group Average,Data variety,5.310453893
+All products,Alteryx,Governance,6.718854283
+All products,Dataiku,Governance,10
+All products,IBM SPSS/WS,Governance,9.080645161
+All products,IBM SPSS/WS/CA,Governance,8.620967742
+All products,Microsoft Azure/Server,Governance,9.151364764
+All products,Microsoft Power BI,Governance,1
+All products,Qlik,Governance,8.965725806
+All products,RapidMiner,Governance,7.367302053
+All products,SAS,Governance,6.822230014
+All products,Tableau,Governance,3.794354839
+All products,Peer Group Average,Governance,7.152144466
+All products,Alteryx,Data management,8.978747794
+All products,Dataiku,Data management,6.580642345
+All products,IBM SPSS/WS,Data management,3.733146208
+All products,IBM SPSS/WS/CA,Data management,4.496010307
+All products,Microsoft Azure/Server,Data management,7.340066758
+All products,Microsoft Power BI,Data management,5.504104594
+All products,Qlik,Data management,7.217948639
+All products,RapidMiner,Data management,5.849614721
+All products,SAS,Data management,5.484649953
+All products,Tableau,Data management,3.678305079
+All products,Peer Group Average,Data management,5.88632364
+All products,Alteryx,Data preparation,9.519589393
+All products,Dataiku,Data preparation,10
+All products,IBM SPSS/WS,Data preparation,2.903246139
+All products,IBM SPSS/WS/CA,Data preparation,3.371257485
+All products,Microsoft Azure/Server,Data preparation,5.3589292
+All products,Microsoft Power BI,Data preparation,7.251497006
+All products,Qlik,Data preparation,5.657827203
+All products,RapidMiner,Data preparation,3.286569718
+All products,SAS,Data preparation,6.038922156
+All products,Tableau,Data preparation,1
+All products,Peer Group Average,Data preparation,5.43878383
+All products,Alteryx,Data visualization,2.523738429
+All products,Dataiku,Data visualization,7.475888325
+All products,IBM SPSS/WS,Data visualization,1
+All products,IBM SPSS/WS/CA,Data visualization,3.110659898
+All products,Microsoft Azure/Server,Data visualization,5.605076142
+All products,Microsoft Power BI,Data visualization,9.460083064
+All products,Qlik,Data visualization,10
+All products,RapidMiner,Data visualization,3.110659898
+All products,SAS,Data visualization,7.340322225
+All products,Tableau,Data visualization,9.554568528
+All products,Peer Group Average,Data visualization,5.918099651
+All products,Alteryx,Visual analysis,4.176470588
+All products,Dataiku,Visual analysis,9.25
+All products,IBM SPSS/WS,Visual analysis,5.857142857
+All products,IBM SPSS/WS/CA,Visual analysis,5.380952381
+All products,Microsoft Azure/Server,Visual analysis,1
+All products,Microsoft Power BI,Visual analysis,8.454545455
+All products,Qlik,Visual analysis,10
+All products,RapidMiner,Visual analysis,6.333333333
+All products,SAS,Visual analysis,6.913043478
+All products,Tableau,Visual analysis,8.833333333
+All products,Peer Group Average,Visual analysis,6.619882143
+All products,Alteryx,Advanced analytics breadth,6.145592705
+All products,Dataiku,Advanced analytics breadth,10
+All products,IBM SPSS/WS,Advanced analytics breadth,5.656215006
+All products,IBM SPSS/WS/CA,Advanced analytics breadth,5.010229133
+All products,Microsoft Azure/Server,Advanced analytics breadth,7.133291615
+All products,Microsoft Power BI,Advanced analytics breadth,8.180851064
+All products,Qlik,Advanced analytics breadth,9.726443769
+All products,RapidMiner,Advanced analytics breadth,4.009118541
+All products,SAS,Advanced analytics breadth,8.67325228
+All products,Tableau,Advanced analytics breadth,1
+All products,Peer Group Average,Advanced analytics breadth,6.553499411
+All products,Alteryx,Analytics,6.430247322
+All products,Dataiku,Analytics,9.552876481
+All products,IBM SPSS/WS,Analytics,4.265852128
+All products,IBM SPSS/WS/CA,Analytics,4.335224946
+All products,Microsoft Azure/Server,Analytics,5.009082065
+All products,Microsoft Power BI,Analytics,8.074024243
+All products,Qlik,Analytics,8.461423657
+All products,RapidMiner,Analytics,4.184932371
+All products,SAS,Analytics,7.255881387
+All products,Tableau,Analytics,3.691248355
+All products,Peer Group Average,Analytics,6.126079295
+All products,Alteryx,Model scoring,2.403326403
+All products,Dataiku,Model scoring,8.864864865
+All products,IBM SPSS/WS,Model scoring,4.648648649
+All products,IBM SPSS/WS/CA,Model scoring,4.26458037
+All products,Microsoft Azure/Server,Model scoring,4.648648649
+All products,Microsoft Power BI,Model scoring,8.297297297
+All products,Qlik,Model scoring,7.72972973
+All products,RapidMiner,Model scoring,2.87960688
+All products,SAS,Model scoring,10
+All products,Tableau,Model scoring,1
+All products,Peer Group Average,Model scoring,5.473670284
+All products,Alteryx,Model management,2.444444444
+All products,Dataiku,Model management,7.428571429
+All products,IBM SPSS/WS,Model management,6
+All products,IBM SPSS/WS/CA,Model management,3.333333333
+All products,Microsoft Azure/Server,Model management,4.857142857
+All products,Microsoft Power BI,Model management,7.333333333
+All products,Qlik,Model management,7.882352941
+All products,RapidMiner,Model management,4.545454545
+All products,SAS,Model management,10
+All products,Tableau,Model management,1
+All products,Peer Group Average,Model management,5.482463288
+All products,Alteryx,Operationalization,2.427997228
+All products,Dataiku,Operationalization,8.003088803
+All products,IBM SPSS/WS,Operationalization,5.459459459
+All products,IBM SPSS/WS/CA,Operationalization,3.705832148
+All products,Microsoft Azure/Server,Operationalization,4.773745174
+All products,Microsoft Power BI,Operationalization,7.718918919
+All products,Qlik,Operationalization,7.821303657
+All products,RapidMiner,Operationalization,3.879115479
+All products,SAS,Operationalization,10
+All products,Tableau,Operationalization,1
+All products,Peer Group Average,Operationalization,5.478946087
+Data discovery products,IBM SPSS/WS/CA,Business benefits,1.626251485
+Data discovery products,Microsoft Azure/Server,Business benefits,1
+Data discovery products,Microsoft Power BI,Business benefits,6.418491074
+Data discovery products,Qlik,Business benefits,9.761968917
+Data discovery products,RapidMiner,Business benefits,2.338834624
+Data discovery products,SAS,Business benefits,2.154789973
+Data discovery products,Tableau,Business benefits,2.124115864
+Data discovery products,Peer Group Average,Business benefits,3.632064562
+Data discovery products,IBM SPSS/WS/CA,Project success,1.795508839
+Data discovery products,Microsoft Azure/Server,Project success,1.465416936
+Data discovery products,Microsoft Power BI,Project success,4.214285714
+Data discovery products,Qlik,Project success,7.32967033
+Data discovery products,RapidMiner,Project success,4.659340659
+Data discovery products,SAS,Project success,1
+Data discovery products,Tableau,Project success,6.513736264
+Data discovery products,Peer Group Average,Project success,3.853994106
+Data discovery products,IBM SPSS/WS/CA,Project length,3.724770642
+Data discovery products,Microsoft Azure/Server,Project length,6.697247706
+Data discovery products,Microsoft Power BI,Project length,5.187418087
+Data discovery products,Qlik,Project length,4.71559633
+Data discovery products,RapidMiner,Project length,7.19266055
+Data discovery products,SAS,Project length,1.743119266
+Data discovery products,Tableau,Project length,1
+Data discovery products,Peer Group Average,Project length,4.322973226
+Data discovery products,IBM SPSS/WS/CA,Business value,2.032423796
+Data discovery products,Microsoft Azure/Server,Business value,2.104680263
+Data discovery products,Microsoft Power BI,Business value,5.478577123
+Data discovery products,Qlik,Business value,8.110140623
+Data discovery products,RapidMiner,Business value,3.921307624
+Data discovery products,SAS,Business value,1.701248197
+Data discovery products,Tableau,Business value,3.39997002
+Data discovery products,Peer Group Average,Business value,3.821192521
+Data discovery products,IBM SPSS/WS/CA,Price-to-value,7.928406467
+Data discovery products,Microsoft Azure/Server,Price-to-value,8.140334194
+Data discovery products,Microsoft Power BI,Price-to-value,10
+Data discovery products,Qlik,Price-to-value,9.459584296
+Data discovery products,RapidMiner,Price-to-value,5.178923058
+Data discovery products,SAS,Price-to-value,1
+Data discovery products,Tableau,Price-to-value,7.671065655
+Data discovery products,Peer Group Average,Price-to-value,7.05404481
+Data discovery products,IBM SPSS/WS/CA,Recommendation,4.732441472
+Data discovery products,Microsoft Azure/Server,Recommendation,1.162895928
+Data discovery products,Microsoft Power BI,Recommendation,6.916083916
+Data discovery products,Qlik,Recommendation,6.538461538
+Data discovery products,RapidMiner,Recommendation,3.769230769
+Data discovery products,SAS,Recommendation,1
+Data discovery products,Tableau,Recommendation,5.961538462
+Data discovery products,Peer Group Average,Recommendation,4.297236012
+Data discovery products,IBM SPSS/WS/CA,Vendor support,1
+Data discovery products,Microsoft Azure/Server,Vendor support,5.885714286
+Data discovery products,Microsoft Power BI,Vendor support,5.073684211
+Data discovery products,Qlik,Vendor support,4.278571429
+Data discovery products,RapidMiner,Vendor support,4.6
+Data discovery products,SAS,Vendor support,3.042307692
+Data discovery products,Tableau,Vendor support,8.271052632
+Data discovery products,Peer Group Average,Vendor support,4.593047178
+Data discovery products,IBM SPSS/WS/CA,Product satisfaction,2.08
+Data discovery products,Microsoft Azure/Server,Product satisfaction,9.208
+Data discovery products,Microsoft Power BI,Product satisfaction,9.208
+Data discovery products,Qlik,Product satisfaction,4.456
+Data discovery products,RapidMiner,Product satisfaction,6.649230769
+Data discovery products,SAS,Product satisfaction,1
+Data discovery products,Tableau,Product satisfaction,4.821538462
+Data discovery products,Peer Group Average,Product satisfaction,5.34610989
+Data discovery products,IBM SPSS/WS/CA,Customer satisfaction,4.143793039
+Data discovery products,Microsoft Azure/Server,Customer satisfaction,5.919896717
+Data discovery products,Microsoft Power BI,Customer satisfaction,8.160659551
+Data discovery products,Qlik,Customer satisfaction,6.242347182
+Data discovery products,RapidMiner,Customer satisfaction,5.134803415
+Data discovery products,SAS,Customer satisfaction,1.226923077
+Data discovery products,Tableau,Customer satisfaction,6.218046079
+Data discovery products,Peer Group Average,Customer satisfaction,5.292352723
+Data discovery products,IBM SPSS/WS/CA,Ease of use,4.853736972
+Data discovery products,Microsoft Azure/Server,Ease of use,3.846148016
+Data discovery products,Microsoft Power BI,Ease of use,4.610530603
+Data discovery products,Qlik,Ease of use,2.371494579
+Data discovery products,RapidMiner,Ease of use,8.641208041
+Data discovery products,SAS,Ease of use,1
+Data discovery products,Tableau,Ease of use,5.136744039
+Data discovery products,Peer Group Average,Ease of use,4.351408893
+Data discovery products,IBM SPSS/WS/CA,Code-free usage,5.524253958
+Data discovery products,Microsoft Azure/Server,Code-free usage,2.438309539
+Data discovery products,Microsoft Power BI,Code-free usage,4.019854589
+Data discovery products,Qlik,Code-free usage,1.28858463
+Data discovery products,RapidMiner,Code-free usage,8.441112893
+Data discovery products,SAS,Code-free usage,1
+Data discovery products,Tableau,Code-free usage,6.212597192
+Data discovery products,Peer Group Average,Code-free usage,4.132101829
+Data discovery products,IBM SPSS/WS/CA,User guidance,8.852125693
+Data discovery products,Microsoft Azure/Server,User guidance,5.791127542
+Data discovery products,Microsoft Power BI,User guidance,5.791127542
+Data discovery products,Qlik,User guidance,5.791127542
+Data discovery products,RapidMiner,User guidance,7.831792976
+Data discovery products,SAS,User guidance,1
+Data discovery products,Tableau,User guidance,9.464325323
+Data discovery products,Peer Group Average,User guidance,6.360232374
+Data discovery products,IBM SPSS/WS/CA,Collaboration,5.657007688
+Data discovery products,Microsoft Azure/Server,Collaboration,7.97752809
+Data discovery products,Microsoft Power BI,Collaboration,5.550561798
+Data discovery products,Qlik,Collaboration,7.573033708
+Data discovery products,RapidMiner,Collaboration,7.106309421
+Data discovery products,SAS,Collaboration,1
+Data discovery products,Tableau,Collaboration,3.93258427
+Data discovery products,Peer Group Average,Collaboration,5.542432139
+Data discovery products,IBM SPSS/WS/CA,Openness,5.463313651
+Data discovery products,Microsoft Azure/Server,Openness,8.127642194
+Data discovery products,Microsoft Power BI,Openness,4.829690679
+Data discovery products,Qlik,Openness,1
+Data discovery products,RapidMiner,Openness,4.080254813
+Data discovery products,SAS,Openness,1.034291931
+Data discovery products,Tableau,Openness,1.05915235
+Data discovery products,Peer Group Average,Openness,3.656335088
+Data discovery products,IBM SPSS/WS/CA,User experience,5.66415469
+Data discovery products,Microsoft Azure/Server,User experience,6.010586389
+Data discovery products,Microsoft Power BI,User experience,4.923276957
+Data discovery products,Qlik,User experience,3.234026332
+Data discovery products,RapidMiner,User experience,6.864991327
+Data discovery products,SAS,User experience,1.010287579
+Data discovery products,Tableau,User experience,4.212978022
+Data discovery products,Peer Group Average,User experience,4.560043042
+Data discovery products,IBM SPSS/WS/CA,Performance satisfaction,3.160158243
+Data discovery products,Microsoft Azure/Server,Performance satisfaction,4.77757255
+Data discovery products,Microsoft Power BI,Performance satisfaction,6.609799935
+Data discovery products,Qlik,Performance satisfaction,5.832417378
+Data discovery products,RapidMiner,Performance satisfaction,7.250464542
+Data discovery products,SAS,Performance satisfaction,4.285425032
+Data discovery products,Tableau,Performance satisfaction,6.23432532
+Data discovery products,Peer Group Average,Performance satisfaction,5.450023286
+Data discovery products,IBM SPSS/WS/CA,Data volume,4.122836123
+Data discovery products,Microsoft Azure/Server,Data volume,8.198676675
+Data discovery products,Microsoft Power BI,Data volume,6.101718473
+Data discovery products,Qlik,Data volume,8.184795549
+Data discovery products,RapidMiner,Data volume,3.183849959
+Data discovery products,SAS,Data volume,7.411786827
+Data discovery products,Tableau,Data volume,1
+Data discovery products,Peer Group Average,Data volume,5.45766623
+Data discovery products,IBM SPSS/WS/CA,Data variety,1
+Data discovery products,Microsoft Azure/Server,Data variety,9.687733533
+Data discovery products,Microsoft Power BI,Data variety,10
+Data discovery products,Qlik,Data variety,5.94529427
+Data discovery products,RapidMiner,Data variety,3.943220119
+Data discovery products,SAS,Data variety,2.552890848
+Data discovery products,Tableau,Data variety,1.134754991
+Data discovery products,Peer Group Average,Data variety,4.894841966
+Data discovery products,IBM SPSS/WS/CA,Governance,8.620967742
+Data discovery products,Microsoft Azure/Server,Governance,9.151364764
+Data discovery products,Microsoft Power BI,Governance,1
+Data discovery products,Qlik,Governance,8.965725806
+Data discovery products,RapidMiner,Governance,7.367302053
+Data discovery products,SAS,Governance,6.822230014
+Data discovery products,Tableau,Governance,3.794354839
+Data discovery products,Peer Group Average,Governance,6.53170646
+Data discovery products,IBM SPSS/WS/CA,Data management,4.496010307
+Data discovery products,Microsoft Azure/Server,Data management,7.340066758
+Data discovery products,Microsoft Power BI,Data management,5.504104594
+Data discovery products,Qlik,Data management,7.217948639
+Data discovery products,RapidMiner,Data management,5.849614721
+Data discovery products,SAS,Data management,5.484649953
+Data discovery products,Tableau,Data management,3.678305079
+Data discovery products,Peer Group Average,Data management,5.65295715
+Data discovery products,IBM SPSS/WS/CA,Data preparation,3.371257485
+Data discovery products,Microsoft Azure/Server,Data preparation,5.3589292
+Data discovery products,Microsoft Power BI,Data preparation,7.251497006
+Data discovery products,Qlik,Data preparation,5.657827203
+Data discovery products,RapidMiner,Data preparation,3.286569718
+Data discovery products,SAS,Data preparation,6.038922156
+Data discovery products,Tableau,Data preparation,1
+Data discovery products,Peer Group Average,Data preparation,4.566428967
+Data discovery products,IBM SPSS/WS/CA,Data visualization,3.110659898
+Data discovery products,Microsoft Azure/Server,Data visualization,5.605076142
+Data discovery products,Microsoft Power BI,Data visualization,9.460083064
+Data discovery products,Qlik,Data visualization,10
+Data discovery products,RapidMiner,Data visualization,3.110659898
+Data discovery products,SAS,Data visualization,7.340322225
+Data discovery products,Tableau,Data visualization,9.554568528
+Data discovery products,Peer Group Average,Data visualization,6.883052822
+Data discovery products,IBM SPSS/WS/CA,Visual analysis,5.380952381
+Data discovery products,Microsoft Azure/Server,Visual analysis,1
+Data discovery products,Microsoft Power BI,Visual analysis,8.454545455
+Data discovery products,Qlik,Visual analysis,10
+Data discovery products,RapidMiner,Visual analysis,6.333333333
+Data discovery products,SAS,Visual analysis,6.913043478
+Data discovery products,Tableau,Visual analysis,8.833333333
+Data discovery products,Peer Group Average,Visual analysis,6.702172569
+Data discovery products,IBM SPSS/WS/CA,Advanced analytics breadth,5.010229133
+Data discovery products,Microsoft Azure/Server,Advanced analytics breadth,7.133291615
+Data discovery products,Microsoft Power BI,Advanced analytics breadth,8.180851064
+Data discovery products,Qlik,Advanced analytics breadth,9.726443769
+Data discovery products,RapidMiner,Advanced analytics breadth,4.009118541
+Data discovery products,SAS,Advanced analytics breadth,8.67325228
+Data discovery products,Tableau,Advanced analytics breadth,1
+Data discovery products,Peer Group Average,Advanced analytics breadth,6.247598057
+Data discovery products,IBM SPSS/WS/CA,Analytics,4.335224946
+Data discovery products,Microsoft Azure/Server,Analytics,5.009082065
+Data discovery products,Microsoft Power BI,Analytics,8.074024243
+Data discovery products,Qlik,Analytics,8.461423657
+Data discovery products,RapidMiner,Analytics,4.184932371
+Data discovery products,SAS,Analytics,7.255881387
+Data discovery products,Tableau,Analytics,3.691248355
+Data discovery products,Peer Group Average,Analytics,5.858831004
+Advanced analytics platforms,Alteryx,Business benefits,10
+Advanced analytics platforms,Dataiku,Business benefits,9.326954285
+Advanced analytics platforms,IBM SPSS/WS,Business benefits,3.691724258
+Advanced analytics platforms,Microsoft Azure/Server,Business benefits,1
+Advanced analytics platforms,RapidMiner,Business benefits,2.338834624
+Advanced analytics platforms,SAS,Business benefits,2.154789973
+Advanced analytics platforms,Peer Group Average,Business benefits,4.752050523
+Advanced analytics platforms,Alteryx,Project success,9.878621379
+Advanced analytics platforms,Dataiku,Project success,10
+Advanced analytics platforms,IBM SPSS/WS,Project success,3.821590175
+Advanced analytics platforms,Microsoft Azure/Server,Project success,1.465416936
+Advanced analytics platforms,RapidMiner,Project success,4.659340659
+Advanced analytics platforms,SAS,Project success,1
+Advanced analytics platforms,Peer Group Average,Project success,5.137494858
+Advanced analytics platforms,Alteryx,Project length,10
+Advanced analytics platforms,Dataiku,Project length,8.961992136
+Advanced analytics platforms,IBM SPSS/WS,Project length,6.697247706
+Advanced analytics platforms,Microsoft Azure/Server,Project length,6.697247706
+Advanced analytics platforms,RapidMiner,Project length,7.19266055
+Advanced analytics platforms,SAS,Project length,1.743119266
+Advanced analytics platforms,Peer Group Average,Project length,6.882044561
+Advanced analytics platforms,Alteryx,Business value,9.95954046
+Advanced analytics platforms,Dataiku,Business value,9.490475832
+Advanced analytics platforms,IBM SPSS/WS,Business value,4.235933472
+Advanced analytics platforms,Microsoft Azure/Server,Business value,2.104680263
+Advanced analytics platforms,RapidMiner,Business value,3.921307624
+Advanced analytics platforms,SAS,Business value,1.701248197
+Advanced analytics platforms,Peer Group Average,Business value,5.235530975
+Advanced analytics platforms,Alteryx,Price-to-value,8.209872979
+Advanced analytics platforms,Dataiku,Price-to-value,7.413724843
+Advanced analytics platforms,IBM SPSS/WS,Price-to-value,8.716512702
+Advanced analytics platforms,Microsoft Azure/Server,Price-to-value,8.140334194
+Advanced analytics platforms,RapidMiner,Price-to-value,5.178923058
+Advanced analytics platforms,SAS,Price-to-value,1
+Advanced analytics platforms,Peer Group Average,Price-to-value,6.443227963
+Advanced analytics platforms,Alteryx,Recommendation,10
+Advanced analytics platforms,Dataiku,Recommendation,8.972027972
+Advanced analytics platforms,IBM SPSS/WS,Recommendation,7.576923077
+Advanced analytics platforms,Microsoft Azure/Server,Recommendation,1.162895928
+Advanced analytics platforms,RapidMiner,Recommendation,3.769230769
+Advanced analytics platforms,SAS,Recommendation,1
+Advanced analytics platforms,Peer Group Average,Recommendation,5.413512958
+Advanced analytics platforms,Alteryx,Vendor support,10
+Advanced analytics platforms,Dataiku,Vendor support,9.1
+Advanced analytics platforms,IBM SPSS/WS,Vendor support,1.707142857
+Advanced analytics platforms,Microsoft Azure/Server,Vendor support,5.885714286
+Advanced analytics platforms,RapidMiner,Vendor support,4.6
+Advanced analytics platforms,SAS,Vendor support,3.042307692
+Advanced analytics platforms,Peer Group Average,Vendor support,5.722527473
+Advanced analytics platforms,Alteryx,Product satisfaction,6.832
+Advanced analytics platforms,Dataiku,Product satisfaction,10
+Advanced analytics platforms,IBM SPSS/WS,Product satisfaction,2.08
+Advanced analytics platforms,Microsoft Azure/Server,Product satisfaction,9.208
+Advanced analytics platforms,RapidMiner,Product satisfaction,6.649230769
+Advanced analytics platforms,SAS,Product satisfaction,1
+Advanced analytics platforms,Peer Group Average,Product satisfaction,5.961538462
+Advanced analytics platforms,Alteryx,Customer satisfaction,8.546193995
+Advanced analytics platforms,Dataiku,Customer satisfaction,8.982614845
+Advanced analytics platforms,IBM SPSS/WS,Customer satisfaction,5.345659721
+Advanced analytics platforms,Microsoft Azure/Server,Customer satisfaction,5.919896717
+Advanced analytics platforms,RapidMiner,Customer satisfaction,5.134803415
+Advanced analytics platforms,SAS,Customer satisfaction,1.226923077
+Advanced analytics platforms,Peer Group Average,Customer satisfaction,5.859348628
+Advanced analytics platforms,Alteryx,Ease of use,9.265698843
+Advanced analytics platforms,Dataiku,Ease of use,10
+Advanced analytics platforms,IBM SPSS/WS,Ease of use,5.011872471
+Advanced analytics platforms,Microsoft Azure/Server,Ease of use,3.846148016
+Advanced analytics platforms,RapidMiner,Ease of use,8.641208041
+Advanced analytics platforms,SAS,Ease of use,1
+Advanced analytics platforms,Peer Group Average,Ease of use,6.294154562
+Advanced analytics platforms,Alteryx,Code-free usage,10
+Advanced analytics platforms,Dataiku,Code-free usage,9.580489214
+Advanced analytics platforms,IBM SPSS/WS,Code-free usage,3.999451738
+Advanced analytics platforms,Microsoft Azure/Server,Code-free usage,2.438309539
+Advanced analytics platforms,RapidMiner,Code-free usage,8.441112893
+Advanced analytics platforms,SAS,Code-free usage,1
+Advanced analytics platforms,Peer Group Average,Code-free usage,5.909893897
+Advanced analytics platforms,Alteryx,User guidance,10
+Advanced analytics platforms,Dataiku,User guidance,9.87245841
+Advanced analytics platforms,IBM SPSS/WS,User guidance,8.852125693
+Advanced analytics platforms,Microsoft Azure/Server,User guidance,5.791127542
+Advanced analytics platforms,RapidMiner,User guidance,7.831792976
+Advanced analytics platforms,SAS,User guidance,1
+Advanced analytics platforms,Peer Group Average,User guidance,7.224584104
+Advanced analytics platforms,Alteryx,Collaboration,6.764044944
+Advanced analytics platforms,Dataiku,Collaboration,10
+Advanced analytics platforms,IBM SPSS/WS,Collaboration,7.13964687
+Advanced analytics platforms,Microsoft Azure/Server,Collaboration,7.97752809
+Advanced analytics platforms,RapidMiner,Collaboration,7.106309421
+Advanced analytics platforms,SAS,Collaboration,1
+Advanced analytics platforms,Peer Group Average,Collaboration,6.664588221
+Advanced analytics platforms,Alteryx,Openness,4.117897217
+Advanced analytics platforms,Dataiku,Openness,10
+Advanced analytics platforms,IBM SPSS/WS,Openness,6.000017431
+Advanced analytics platforms,Microsoft Azure/Server,Openness,8.127642194
+Advanced analytics platforms,RapidMiner,Openness,4.080254813
+Advanced analytics platforms,SAS,Openness,1.034291931
+Advanced analytics platforms,Peer Group Average,Openness,5.560017264
+Advanced analytics platforms,Alteryx,User experience,7.367887807
+Advanced analytics platforms,Dataiku,User experience,9.945294762
+Advanced analytics platforms,IBM SPSS/WS,User experience,6.016654088
+Advanced analytics platforms,Microsoft Azure/Server,User experience,6.010586389
+Advanced analytics platforms,RapidMiner,User experience,6.864991327
+Advanced analytics platforms,SAS,User experience,1.010287579
+Advanced analytics platforms,Peer Group Average,User experience,6.202616992
+Advanced analytics platforms,Alteryx,Performance satisfaction,10
+Advanced analytics platforms,Dataiku,Performance satisfaction,3.68683308
+Advanced analytics platforms,IBM SPSS/WS,Performance satisfaction,1
+Advanced analytics platforms,Microsoft Azure/Server,Performance satisfaction,4.77757255
+Advanced analytics platforms,RapidMiner,Performance satisfaction,7.250464542
+Advanced analytics platforms,SAS,Performance satisfaction,4.285425032
+Advanced analytics platforms,Peer Group Average,Performance satisfaction,5.166715867
+Advanced analytics platforms,Alteryx,Data volume,10
+Advanced analytics platforms,Dataiku,Data volume,6.181611954
+Advanced analytics platforms,IBM SPSS/WS,Data volume,3.738461784
+Advanced analytics platforms,Microsoft Azure/Server,Data volume,8.198676675
+Advanced analytics platforms,RapidMiner,Data volume,3.183849959
+Advanced analytics platforms,SAS,Data volume,7.411786827
+Advanced analytics platforms,Peer Group Average,Data volume,6.452397867
+Advanced analytics platforms,Alteryx,Data variety,8.392273788
+Advanced analytics platforms,Dataiku,Data variety,9.221415608
+Advanced analytics platforms,IBM SPSS/WS,Data variety,1.226955774
+Advanced analytics platforms,Microsoft Azure/Server,Data variety,9.687733533
+Advanced analytics platforms,RapidMiner,Data variety,3.943220119
+Advanced analytics platforms,SAS,Data variety,2.552890848
+Advanced analytics platforms,Peer Group Average,Data variety,5.837414945
+Advanced analytics platforms,Alteryx,Governance,6.718854283
+Advanced analytics platforms,Dataiku,Governance,10
+Advanced analytics platforms,IBM SPSS/WS,Governance,9.080645161
+Advanced analytics platforms,Microsoft Azure/Server,Governance,9.151364764
+Advanced analytics platforms,RapidMiner,Governance,7.367302053
+Advanced analytics platforms,SAS,Governance,6.822230014
+Advanced analytics platforms,Peer Group Average,Governance,8.190066046
+Advanced analytics platforms,Alteryx,Data management,8.978747794
+Advanced analytics platforms,Dataiku,Data management,6.580642345
+Advanced analytics platforms,IBM SPSS/WS,Data management,3.733146208
+Advanced analytics platforms,Microsoft Azure/Server,Data management,7.340066758
+Advanced analytics platforms,RapidMiner,Data management,5.849614721
+Advanced analytics platforms,SAS,Data management,5.484649953
+Advanced analytics platforms,Peer Group Average,Data management,6.327811296
+Advanced analytics platforms,Alteryx,Data preparation,9.519589393
+Advanced analytics platforms,Dataiku,Data preparation,10
+Advanced analytics platforms,IBM SPSS/WS,Data preparation,2.903246139
+Advanced analytics platforms,Microsoft Azure/Server,Data preparation,5.3589292
+Advanced analytics platforms,RapidMiner,Data preparation,3.286569718
+Advanced analytics platforms,SAS,Data preparation,6.038922156
+Advanced analytics platforms,Peer Group Average,Data preparation,6.184542768
+Advanced analytics platforms,Alteryx,Data visualization,2.523738429
+Advanced analytics platforms,Dataiku,Data visualization,7.475888325
+Advanced analytics platforms,IBM SPSS/WS,Data visualization,1
+Advanced analytics platforms,Microsoft Azure/Server,Data visualization,5.605076142
+Advanced analytics platforms,RapidMiner,Data visualization,3.110659898
+Advanced analytics platforms,SAS,Data visualization,7.340322225
+Advanced analytics platforms,Peer Group Average,Data visualization,4.509280837
+Advanced analytics platforms,Alteryx,Visual analysis,4.176470588
+Advanced analytics platforms,Dataiku,Visual analysis,9.25
+Advanced analytics platforms,IBM SPSS/WS,Visual analysis,5.857142857
+Advanced analytics platforms,Microsoft Azure/Server,Visual analysis,1
+Advanced analytics platforms,RapidMiner,Visual analysis,6.333333333
+Advanced analytics platforms,SAS,Visual analysis,6.913043478
+Advanced analytics platforms,Peer Group Average,Visual analysis,5.588331709
+Advanced analytics platforms,Alteryx,Advanced analytics breadth,6.145592705
+Advanced analytics platforms,Dataiku,Advanced analytics breadth,10
+Advanced analytics platforms,IBM SPSS/WS,Advanced analytics breadth,5.656215006
+Advanced analytics platforms,Microsoft Azure/Server,Advanced analytics breadth,7.133291615
+Advanced analytics platforms,RapidMiner,Advanced analytics breadth,4.009118541
+Advanced analytics platforms,SAS,Advanced analytics breadth,8.67325228
+Advanced analytics platforms,Peer Group Average,Advanced analytics breadth,6.936245024
+Advanced analytics platforms,Alteryx,Analytics,6.430247322
+Advanced analytics platforms,Dataiku,Analytics,9.552876481
+Advanced analytics platforms,IBM SPSS/WS,Analytics,4.265852128
+Advanced analytics platforms,Microsoft Azure/Server,Analytics,5.009082065
+Advanced analytics platforms,RapidMiner,Analytics,4.184932371
+Advanced analytics platforms,SAS,Analytics,7.255881387
+Advanced analytics platforms,Peer Group Average,Analytics,6.116478626
+Advanced analytics platforms,Alteryx,Model scoring,2.403326403
+Advanced analytics platforms,Dataiku,Model scoring,8.864864865
+Advanced analytics platforms,IBM SPSS/WS,Model scoring,4.648648649
+Advanced analytics platforms,Microsoft Azure/Server,Model scoring,4.648648649
+Advanced analytics platforms,RapidMiner,Model scoring,2.87960688
+Advanced analytics platforms,SAS,Model scoring,10
+Advanced analytics platforms,Peer Group Average,Model scoring,5.574182574
+Advanced analytics platforms,Alteryx,Model management,2.444444444
+Advanced analytics platforms,Dataiku,Model management,7.428571429
+Advanced analytics platforms,IBM SPSS/WS,Model management,6
+Advanced analytics platforms,Microsoft Azure/Server,Model management,4.857142857
+Advanced analytics platforms,RapidMiner,Model management,4.545454545
+Advanced analytics platforms,SAS,Model management,10
+Advanced analytics platforms,Peer Group Average,Model management,5.879268879
+Advanced analytics platforms,Alteryx,Operationalization,2.427997228
+Advanced analytics platforms,Dataiku,Operationalization,8.003088803
+Advanced analytics platforms,IBM SPSS/WS,Operationalization,5.459459459
+Advanced analytics platforms,Microsoft Azure/Server,Operationalization,4.773745174
+Advanced analytics platforms,RapidMiner,Operationalization,3.879115479
+Advanced analytics platforms,SAS,Operationalization,10
+Advanced analytics platforms,Peer Group Average,Operationalization,5.757234357
+Data preparation products,Alteryx,Business benefits,10
+Data preparation products,Dataiku,Business benefits,9.326954285
+Data preparation products,IBM SPSS/WS,Business benefits,3.691724258
+Data preparation products,IBM SPSS/WS/CA,Business benefits,1.626251485
+Data preparation products,Microsoft Azure/Server,Business benefits,1
+Data preparation products,Microsoft Power BI,Business benefits,6.418491074
+Data preparation products,Qlik,Business benefits,9.761968917
+Data preparation products,RapidMiner,Business benefits,2.338834624
+Data preparation products,SAS,Business benefits,2.154789973
+Data preparation products,Tableau,Business benefits,2.124115864
+Data preparation products,Peer Group Average,Business benefits,4.844313048
+Data preparation products,Alteryx,Project success,9.878621379
+Data preparation products,Dataiku,Project success,10
+Data preparation products,IBM SPSS/WS,Project success,3.821590175
+Data preparation products,IBM SPSS/WS/CA,Project success,1.795508839
+Data preparation products,Microsoft Azure/Server,Project success,1.465416936
+Data preparation products,Microsoft Power BI,Project success,4.214285714
+Data preparation products,Qlik,Project success,7.32967033
+Data preparation products,RapidMiner,Project success,4.659340659
+Data preparation products,SAS,Project success,1
+Data preparation products,Tableau,Project success,6.513736264
+Data preparation products,Peer Group Average,Project success,5.06781703
+Data preparation products,Alteryx,Project length,10
+Data preparation products,Dataiku,Project length,8.961992136
+Data preparation products,IBM SPSS/WS,Project length,6.697247706
+Data preparation products,IBM SPSS/WS/CA,Project length,3.724770642
+Data preparation products,Microsoft Azure/Server,Project length,6.697247706
+Data preparation products,Microsoft Power BI,Project length,5.187418087
+Data preparation products,Qlik,Project length,4.71559633
+Data preparation products,RapidMiner,Project length,7.19266055
+Data preparation products,SAS,Project length,1.743119266
+Data preparation products,Tableau,Project length,1
+Data preparation products,Peer Group Average,Project length,5.592005242
+Data preparation products,Alteryx,Business value,9.95954046
+Data preparation products,Dataiku,Business value,9.490475832
+Data preparation products,IBM SPSS/WS,Business value,4.235933472
+Data preparation products,IBM SPSS/WS/CA,Business value,2.032423796
+Data preparation products,Microsoft Azure/Server,Business value,2.104680263
+Data preparation products,Microsoft Power BI,Business value,5.478577123
+Data preparation products,Qlik,Business value,8.110140623
+Data preparation products,RapidMiner,Business value,3.921307624
+Data preparation products,SAS,Business value,1.701248197
+Data preparation products,Tableau,Business value,3.39997002
+Data preparation products,Peer Group Average,Business value,5.043429741
+Data preparation products,Alteryx,Price-to-value,8.209872979
+Data preparation products,Dataiku,Price-to-value,7.413724843
+Data preparation products,IBM SPSS/WS,Price-to-value,8.716512702
+Data preparation products,IBM SPSS/WS/CA,Price-to-value,7.928406467
+Data preparation products,Microsoft Azure/Server,Price-to-value,8.140334194
+Data preparation products,Microsoft Power BI,Price-to-value,10
+Data preparation products,Qlik,Price-to-value,9.459584296
+Data preparation products,RapidMiner,Price-to-value,5.178923058
+Data preparation products,SAS,Price-to-value,1
+Data preparation products,Tableau,Price-to-value,7.671065655
+Data preparation products,Peer Group Average,Price-to-value,7.371842419
+Data preparation products,Alteryx,Recommendation,10
+Data preparation products,Dataiku,Recommendation,8.972027972
+Data preparation products,IBM SPSS/WS,Recommendation,7.576923077
+Data preparation products,IBM SPSS/WS/CA,Recommendation,4.732441472
+Data preparation products,Microsoft Azure/Server,Recommendation,1.162895928
+Data preparation products,Microsoft Power BI,Recommendation,6.916083916
+Data preparation products,Qlik,Recommendation,6.538461538
+Data preparation products,RapidMiner,Recommendation,3.769230769
+Data preparation products,SAS,Recommendation,1
+Data preparation products,Tableau,Recommendation,5.961538462
+Data preparation products,Peer Group Average,Recommendation,5.662960313
+Data preparation products,Alteryx,Vendor support,10
+Data preparation products,Dataiku,Vendor support,9.1
+Data preparation products,IBM SPSS/WS,Vendor support,1.707142857
+Data preparation products,IBM SPSS/WS/CA,Vendor support,1
+Data preparation products,Microsoft Azure/Server,Vendor support,5.885714286
+Data preparation products,Microsoft Power BI,Vendor support,5.073684211
+Data preparation products,Qlik,Vendor support,4.278571429
+Data preparation products,RapidMiner,Vendor support,4.6
+Data preparation products,SAS,Vendor support,3.042307692
+Data preparation products,Tableau,Vendor support,8.271052632
+Data preparation products,Peer Group Average,Vendor support,5.295847311
+Data preparation products,Alteryx,Product satisfaction,6.832
+Data preparation products,Dataiku,Product satisfaction,10
+Data preparation products,IBM SPSS/WS,Product satisfaction,2.08
+Data preparation products,IBM SPSS/WS/CA,Product satisfaction,2.08
+Data preparation products,Microsoft Azure/Server,Product satisfaction,9.208
+Data preparation products,Microsoft Power BI,Product satisfaction,9.208
+Data preparation products,Qlik,Product satisfaction,4.456
+Data preparation products,RapidMiner,Product satisfaction,6.649230769
+Data preparation products,SAS,Product satisfaction,1
+Data preparation products,Tableau,Product satisfaction,4.821538462
+Data preparation products,Peer Group Average,Product satisfaction,5.633476923
+Data preparation products,Alteryx,Customer satisfaction,8.546193995
+Data preparation products,Dataiku,Customer satisfaction,8.982614845
+Data preparation products,IBM SPSS/WS,Customer satisfaction,5.345659721
+Data preparation products,IBM SPSS/WS/CA,Customer satisfaction,4.143793039
+Data preparation products,Microsoft Azure/Server,Customer satisfaction,5.919896717
+Data preparation products,Microsoft Power BI,Customer satisfaction,8.160659551
+Data preparation products,Qlik,Customer satisfaction,6.242347182
+Data preparation products,RapidMiner,Customer satisfaction,5.134803415
+Data preparation products,SAS,Customer satisfaction,1.226923077
+Data preparation products,Tableau,Customer satisfaction,6.218046079
+Data preparation products,Peer Group Average,Customer satisfaction,5.992093762
+Data preparation products,Alteryx,Ease of use,9.265698843
+Data preparation products,Dataiku,Ease of use,10
+Data preparation products,IBM SPSS/WS,Ease of use,5.011872471
+Data preparation products,IBM SPSS/WS/CA,Ease of use,4.853736972
+Data preparation products,Microsoft Azure/Server,Ease of use,3.846148016
+Data preparation products,Microsoft Power BI,Ease of use,4.610530603
+Data preparation products,Qlik,Ease of use,2.371494579
+Data preparation products,RapidMiner,Ease of use,8.641208041
+Data preparation products,SAS,Ease of use,1
+Data preparation products,Tableau,Ease of use,5.136744039
+Data preparation products,Peer Group Average,Ease of use,5.473743356
+Data preparation products,Alteryx,Code-free usage,10
+Data preparation products,Dataiku,Code-free usage,9.580489214
+Data preparation products,IBM SPSS/WS,Code-free usage,3.999451738
+Data preparation products,IBM SPSS/WS/CA,Code-free usage,5.524253958
+Data preparation products,Microsoft Azure/Server,Code-free usage,2.438309539
+Data preparation products,Microsoft Power BI,Code-free usage,4.019854589
+Data preparation products,Qlik,Code-free usage,1.28858463
+Data preparation products,RapidMiner,Code-free usage,8.441112893
+Data preparation products,SAS,Code-free usage,1
+Data preparation products,Tableau,Code-free usage,6.212597192
+Data preparation products,Peer Group Average,Code-free usage,5.250465375
+Data preparation products,Alteryx,User guidance,10
+Data preparation products,Dataiku,User guidance,9.87245841
+Data preparation products,IBM SPSS/WS,User guidance,8.852125693
+Data preparation products,IBM SPSS/WS/CA,User guidance,8.852125693
+Data preparation products,Microsoft Azure/Server,User guidance,5.791127542
+Data preparation products,Microsoft Power BI,User guidance,5.791127542
+Data preparation products,Qlik,User guidance,5.791127542
+Data preparation products,RapidMiner,User guidance,7.831792976
+Data preparation products,SAS,User guidance,1
+Data preparation products,Tableau,User guidance,9.464325323
+Data preparation products,Peer Group Average,User guidance,7.324621072
+Data preparation products,Alteryx,Collaboration,6.764044944
+Data preparation products,Dataiku,Collaboration,10
+Data preparation products,IBM SPSS/WS,Collaboration,7.13964687
+Data preparation products,IBM SPSS/WS/CA,Collaboration,5.657007688
+Data preparation products,Microsoft Azure/Server,Collaboration,7.97752809
+Data preparation products,Microsoft Power BI,Collaboration,5.550561798
+Data preparation products,Qlik,Collaboration,7.573033708
+Data preparation products,RapidMiner,Collaboration,7.106309421
+Data preparation products,SAS,Collaboration,1
+Data preparation products,Tableau,Collaboration,3.93258427
+Data preparation products,Peer Group Average,Collaboration,6.270071679
+Data preparation products,Alteryx,Openness,4.117897217
+Data preparation products,Dataiku,Openness,10
+Data preparation products,IBM SPSS/WS,Openness,6.000017431
+Data preparation products,IBM SPSS/WS/CA,Openness,5.463313651
+Data preparation products,Microsoft Azure/Server,Openness,8.127642194
+Data preparation products,Microsoft Power BI,Openness,4.829690679
+Data preparation products,Qlik,Openness,1
+Data preparation products,RapidMiner,Openness,4.080254813
+Data preparation products,SAS,Openness,1.034291931
+Data preparation products,Tableau,Openness,1.05915235
+Data preparation products,Peer Group Average,Openness,4.571226026
+Data preparation products,Alteryx,User experience,7.367887807
+Data preparation products,Dataiku,User experience,9.945294762
+Data preparation products,IBM SPSS/WS,User experience,6.016654088
+Data preparation products,IBM SPSS/WS/CA,User experience,5.66415469
+Data preparation products,Microsoft Azure/Server,User experience,6.010586389
+Data preparation products,Microsoft Power BI,User experience,4.923276957
+Data preparation products,Qlik,User experience,3.234026332
+Data preparation products,RapidMiner,User experience,6.864991327
+Data preparation products,SAS,User experience,1.010287579
+Data preparation products,Tableau,User experience,4.212978022
+Data preparation products,Peer Group Average,User experience,5.525013795
+Data preparation products,Alteryx,Performance satisfaction,10
+Data preparation products,Dataiku,Performance satisfaction,3.68683308
+Data preparation products,IBM SPSS/WS,Performance satisfaction,1
+Data preparation products,IBM SPSS/WS/CA,Performance satisfaction,3.160158243
+Data preparation products,Microsoft Azure/Server,Performance satisfaction,4.77757255
+Data preparation products,Microsoft Power BI,Performance satisfaction,6.609799935
+Data preparation products,Qlik,Performance satisfaction,5.832417378
+Data preparation products,RapidMiner,Performance satisfaction,7.250464542
+Data preparation products,SAS,Performance satisfaction,4.285425032
+Data preparation products,Tableau,Performance satisfaction,6.23432532
+Data preparation products,Peer Group Average,Performance satisfaction,5.283699608
+Data preparation products,Alteryx,Data volume,10
+Data preparation products,Dataiku,Data volume,6.181611954
+Data preparation products,IBM SPSS/WS,Data volume,3.738461784
+Data preparation products,IBM SPSS/WS/CA,Data volume,4.122836123
+Data preparation products,Microsoft Azure/Server,Data volume,8.198676675
+Data preparation products,Microsoft Power BI,Data volume,6.101718473
+Data preparation products,Qlik,Data volume,8.184795549
+Data preparation products,RapidMiner,Data volume,3.183849959
+Data preparation products,SAS,Data volume,7.411786827
+Data preparation products,Tableau,Data volume,1
+Data preparation products,Peer Group Average,Data volume,5.812373735
+Data preparation products,Alteryx,Data variety,8.392273788
+Data preparation products,Dataiku,Data variety,9.221415608
+Data preparation products,IBM SPSS/WS,Data variety,1.226955774
+Data preparation products,IBM SPSS/WS/CA,Data variety,1
+Data preparation products,Microsoft Azure/Server,Data variety,9.687733533
+Data preparation products,Microsoft Power BI,Data variety,10
+Data preparation products,Qlik,Data variety,5.94529427
+Data preparation products,RapidMiner,Data variety,3.943220119
+Data preparation products,SAS,Data variety,2.552890848
+Data preparation products,Tableau,Data variety,1.134754991
+Data preparation products,Peer Group Average,Data variety,5.310453893
+Data preparation products,Alteryx,Governance,6.718854283
+Data preparation products,Dataiku,Governance,10
+Data preparation products,IBM SPSS/WS,Governance,9.080645161
+Data preparation products,IBM SPSS/WS/CA,Governance,8.620967742
+Data preparation products,Microsoft Azure/Server,Governance,9.151364764
+Data preparation products,Microsoft Power BI,Governance,1
+Data preparation products,Qlik,Governance,8.965725806
+Data preparation products,RapidMiner,Governance,7.367302053
+Data preparation products,SAS,Governance,6.822230014
+Data preparation products,Tableau,Governance,3.794354839
+Data preparation products,Peer Group Average,Governance,7.152144466
+Data preparation products,Alteryx,Data management,8.978747794
+Data preparation products,Dataiku,Data management,6.580642345
+Data preparation products,IBM SPSS/WS,Data management,3.733146208
+Data preparation products,IBM SPSS/WS/CA,Data management,4.496010307
+Data preparation products,Microsoft Azure/Server,Data management,7.340066758
+Data preparation products,Microsoft Power BI,Data management,5.504104594
+Data preparation products,Qlik,Data management,7.217948639
+Data preparation products,RapidMiner,Data management,5.849614721
+Data preparation products,SAS,Data management,5.484649953
+Data preparation products,Tableau,Data management,3.678305079
+Data preparation products,Peer Group Average,Data management,5.88632364
+Data preparation products,Alteryx,Data preparation,9.519589393
+Data preparation products,Dataiku,Data preparation,10
+Data preparation products,IBM SPSS/WS,Data preparation,2.903246139
+Data preparation products,IBM SPSS/WS/CA,Data preparation,3.371257485
+Data preparation products,Microsoft Azure/Server,Data preparation,5.3589292
+Data preparation products,Microsoft Power BI,Data preparation,7.251497006
+Data preparation products,Qlik,Data preparation,5.657827203
+Data preparation products,RapidMiner,Data preparation,3.286569718
+Data preparation products,SAS,Data preparation,6.038922156
+Data preparation products,Tableau,Data preparation,1
+Data preparation products,Peer Group Average,Data preparation,5.43878383
+Data preparation products,Alteryx,Data visualization,2.523738429
+Data preparation products,Dataiku,Data visualization,7.475888325
+Data preparation products,IBM SPSS/WS,Data visualization,1
+Data preparation products,IBM SPSS/WS/CA,Data visualization,3.110659898
+Data preparation products,Microsoft Azure/Server,Data visualization,5.605076142
+Data preparation products,Microsoft Power BI,Data visualization,9.460083064
+Data preparation products,Qlik,Data visualization,10
+Data preparation products,RapidMiner,Data visualization,3.110659898
+Data preparation products,SAS,Data visualization,7.340322225
+Data preparation products,Tableau,Data visualization,9.554568528
+Data preparation products,Peer Group Average,Data visualization,5.918099651
+Data preparation products,Alteryx,Visual analysis,4.176470588
+Data preparation products,Dataiku,Visual analysis,9.25
+Data preparation products,IBM SPSS/WS,Visual analysis,5.857142857
+Data preparation products,IBM SPSS/WS/CA,Visual analysis,5.380952381
+Data preparation products,Microsoft Azure/Server,Visual analysis,1
+Data preparation products,Microsoft Power BI,Visual analysis,8.454545455
+Data preparation products,Qlik,Visual analysis,10
+Data preparation products,RapidMiner,Visual analysis,6.333333333
+Data preparation products,SAS,Visual analysis,6.913043478
+Data preparation products,Tableau,Visual analysis,8.833333333
+Data preparation products,Peer Group Average,Visual analysis,6.619882143
+Data preparation products,Alteryx,Advanced analytics breadth,6.145592705
+Data preparation products,Dataiku,Advanced analytics breadth,10
+Data preparation products,IBM SPSS/WS,Advanced analytics breadth,5.656215006
+Data preparation products,IBM SPSS/WS/CA,Advanced analytics breadth,5.010229133
+Data preparation products,Microsoft Azure/Server,Advanced analytics breadth,7.133291615
+Data preparation products,Microsoft Power BI,Advanced analytics breadth,8.180851064
+Data preparation products,Qlik,Advanced analytics breadth,9.726443769
+Data preparation products,RapidMiner,Advanced analytics breadth,4.009118541
+Data preparation products,SAS,Advanced analytics breadth,8.67325228
+Data preparation products,Tableau,Advanced analytics breadth,1
+Data preparation products,Peer Group Average,Advanced analytics breadth,6.553499411
+Data preparation products,Alteryx,Analytics,6.430247322
+Data preparation products,Dataiku,Analytics,9.552876481
+Data preparation products,IBM SPSS/WS,Analytics,4.265852128
+Data preparation products,IBM SPSS/WS/CA,Analytics,4.335224946
+Data preparation products,Microsoft Azure/Server,Analytics,5.009082065
+Data preparation products,Microsoft Power BI,Analytics,8.074024243
+Data preparation products,Qlik,Analytics,8.461423657
+Data preparation products,RapidMiner,Analytics,4.184932371
+Data preparation products,SAS,Analytics,7.255881387
+Data preparation products,Tableau,Analytics,3.691248355
+Data preparation products,Peer Group Average,Analytics,6.126079295
+Software generalists,IBM SPSS/WS,Business benefits,3.691724258
+Software generalists,IBM SPSS/WS/CA,Business benefits,1.626251485
+Software generalists,Microsoft Azure/Server,Business benefits,1
+Software generalists,Microsoft Power BI,Business benefits,6.418491074
+Software generalists,SAS,Business benefits,2.154789973
+Software generalists,Peer Group Average,Business benefits,2.978251358
+Software generalists,IBM SPSS/WS,Project success,3.821590175
+Software generalists,IBM SPSS/WS/CA,Project success,1.795508839
+Software generalists,Microsoft Azure/Server,Project success,1.465416936
+Software generalists,Microsoft Power BI,Project success,4.214285714
+Software generalists,SAS,Project success,1
+Software generalists,Peer Group Average,Project success,2.459360333
+Software generalists,IBM SPSS/WS,Project length,6.697247706
+Software generalists,IBM SPSS/WS/CA,Project length,3.724770642
+Software generalists,Microsoft Azure/Server,Project length,6.697247706
+Software generalists,Microsoft Power BI,Project length,5.187418087
+Software generalists,SAS,Project length,1.743119266
+Software generalists,Peer Group Average,Project length,4.809960682
+Software generalists,IBM SPSS/WS,Business value,4.235933472
+Software generalists,IBM SPSS/WS/CA,Business value,2.032423796
+Software generalists,Microsoft Azure/Server,Business value,2.104680263
+Software generalists,Microsoft Power BI,Business value,5.478577123
+Software generalists,SAS,Business value,1.701248197
+Software generalists,Peer Group Average,Business value,3.11057257
+Software generalists,IBM SPSS/WS,Price-to-value,8.716512702
+Software generalists,IBM SPSS/WS/CA,Price-to-value,7.928406467
+Software generalists,Microsoft Azure/Server,Price-to-value,8.140334194
+Software generalists,Microsoft Power BI,Price-to-value,10
+Software generalists,SAS,Price-to-value,1
+Software generalists,Peer Group Average,Price-to-value,7.157050672
+Software generalists,IBM SPSS/WS,Recommendation,7.576923077
+Software generalists,IBM SPSS/WS/CA,Recommendation,4.732441472
+Software generalists,Microsoft Azure/Server,Recommendation,1.162895928
+Software generalists,Microsoft Power BI,Recommendation,6.916083916
+Software generalists,SAS,Recommendation,1
+Software generalists,Peer Group Average,Recommendation,4.277668878
+Software generalists,IBM SPSS/WS,Vendor support,1.707142857
+Software generalists,IBM SPSS/WS/CA,Vendor support,1
+Software generalists,Microsoft Azure/Server,Vendor support,5.885714286
+Software generalists,Microsoft Power BI,Vendor support,5.073684211
+Software generalists,SAS,Vendor support,3.042307692
+Software generalists,Peer Group Average,Vendor support,3.341769809
+Software generalists,IBM SPSS/WS,Product satisfaction,2.08
+Software generalists,IBM SPSS/WS/CA,Product satisfaction,2.08
+Software generalists,Microsoft Azure/Server,Product satisfaction,9.208
+Software generalists,Microsoft Power BI,Product satisfaction,9.208
+Software generalists,SAS,Product satisfaction,1
+Software generalists,Peer Group Average,Product satisfaction,4.7152
+Software generalists,IBM SPSS/WS,Customer satisfaction,5.345659721
+Software generalists,IBM SPSS/WS/CA,Customer satisfaction,4.143793039
+Software generalists,Microsoft Azure/Server,Customer satisfaction,5.919896717
+Software generalists,Microsoft Power BI,Customer satisfaction,8.160659551
+Software generalists,SAS,Customer satisfaction,1.226923077
+Software generalists,Peer Group Average,Customer satisfaction,4.959386421
+Software generalists,IBM SPSS/WS,Ease of use,5.011872471
+Software generalists,IBM SPSS/WS/CA,Ease of use,4.853736972
+Software generalists,Microsoft Azure/Server,Ease of use,3.846148016
+Software generalists,Microsoft Power BI,Ease of use,4.610530603
+Software generalists,SAS,Ease of use,1
+Software generalists,Peer Group Average,Ease of use,3.864457613
+Software generalists,IBM SPSS/WS,Code-free usage,3.999451738
+Software generalists,IBM SPSS/WS/CA,Code-free usage,5.524253958
+Software generalists,Microsoft Azure/Server,Code-free usage,2.438309539
+Software generalists,Microsoft Power BI,Code-free usage,4.019854589
+Software generalists,SAS,Code-free usage,1
+Software generalists,Peer Group Average,Code-free usage,3.396373965
+Software generalists,IBM SPSS/WS,User guidance,8.852125693
+Software generalists,IBM SPSS/WS/CA,User guidance,8.852125693
+Software generalists,Microsoft Azure/Server,User guidance,5.791127542
+Software generalists,Microsoft Power BI,User guidance,5.791127542
+Software generalists,SAS,User guidance,1
+Software generalists,Peer Group Average,User guidance,6.057301294
+Software generalists,IBM SPSS/WS,Collaboration,7.13964687
+Software generalists,IBM SPSS/WS/CA,Collaboration,5.657007688
+Software generalists,Microsoft Azure/Server,Collaboration,7.97752809
+Software generalists,Microsoft Power BI,Collaboration,5.550561798
+Software generalists,SAS,Collaboration,1
+Software generalists,Peer Group Average,Collaboration,5.464948889
+Software generalists,IBM SPSS/WS,Openness,6.000017431
+Software generalists,IBM SPSS/WS/CA,Openness,5.463313651
+Software generalists,Microsoft Azure/Server,Openness,8.127642194
+Software generalists,Microsoft Power BI,Openness,4.829690679
+Software generalists,SAS,Openness,1.034291931
+Software generalists,Peer Group Average,Openness,5.090991177
+Software generalists,IBM SPSS/WS,User experience,6.016654088
+Software generalists,IBM SPSS/WS/CA,User experience,5.66415469
+Software generalists,Microsoft Azure/Server,User experience,6.010586389
+Software generalists,Microsoft Power BI,User experience,4.923276957
+Software generalists,SAS,User experience,1.010287579
+Software generalists,Peer Group Average,User experience,4.724991941
+Software generalists,IBM SPSS/WS,Performance satisfaction,1
+Software generalists,IBM SPSS/WS/CA,Performance satisfaction,3.160158243
+Software generalists,Microsoft Azure/Server,Performance satisfaction,4.77757255
+Software generalists,Microsoft Power BI,Performance satisfaction,6.609799935
+Software generalists,SAS,Performance satisfaction,4.285425032
+Software generalists,Peer Group Average,Performance satisfaction,3.966591152
+Software generalists,IBM SPSS/WS,Data volume,3.738461784
+Software generalists,IBM SPSS/WS/CA,Data volume,4.122836123
+Software generalists,Microsoft Azure/Server,Data volume,8.198676675
+Software generalists,Microsoft Power BI,Data volume,6.101718473
+Software generalists,SAS,Data volume,7.411786827
+Software generalists,Peer Group Average,Data volume,5.914695976
+Software generalists,IBM SPSS/WS,Data variety,1.226955774
+Software generalists,IBM SPSS/WS/CA,Data variety,1
+Software generalists,Microsoft Azure/Server,Data variety,9.687733533
+Software generalists,Microsoft Power BI,Data variety,10
+Software generalists,SAS,Data variety,2.552890848
+Software generalists,Peer Group Average,Data variety,4.893516031
+Software generalists,IBM SPSS/WS,Governance,9.080645161
+Software generalists,IBM SPSS/WS/CA,Governance,8.620967742
+Software generalists,Microsoft Azure/Server,Governance,9.151364764
+Software generalists,Microsoft Power BI,Governance,1
+Software generalists,SAS,Governance,6.822230014
+Software generalists,Peer Group Average,Governance,6.935041536
+Software generalists,IBM SPSS/WS,Data management,3.733146208
+Software generalists,IBM SPSS/WS/CA,Data management,4.496010307
+Software generalists,Microsoft Azure/Server,Data management,7.340066758
+Software generalists,Microsoft Power BI,Data management,5.504104594
+Software generalists,SAS,Data management,5.484649953
+Software generalists,Peer Group Average,Data management,5.311595564
+Software generalists,IBM SPSS/WS,Data preparation,2.903246139
+Software generalists,IBM SPSS/WS/CA,Data preparation,3.371257485
+Software generalists,Microsoft Azure/Server,Data preparation,5.3589292
+Software generalists,Microsoft Power BI,Data preparation,7.251497006
+Software generalists,SAS,Data preparation,6.038922156
+Software generalists,Peer Group Average,Data preparation,4.984770397
+Software generalists,IBM SPSS/WS,Data visualization,1
+Software generalists,IBM SPSS/WS/CA,Data visualization,3.110659898
+Software generalists,Microsoft Azure/Server,Data visualization,5.605076142
+Software generalists,Microsoft Power BI,Data visualization,9.460083064
+Software generalists,SAS,Data visualization,7.340322225
+Software generalists,Peer Group Average,Data visualization,5.303228266
+Software generalists,IBM SPSS/WS,Visual analysis,5.857142857
+Software generalists,IBM SPSS/WS/CA,Visual analysis,5.380952381
+Software generalists,Microsoft Azure/Server,Visual analysis,1
+Software generalists,Microsoft Power BI,Visual analysis,8.454545455
+Software generalists,SAS,Visual analysis,6.913043478
+Software generalists,Peer Group Average,Visual analysis,5.521136834
+Software generalists,IBM SPSS/WS,Advanced analytics breadth,5.656215006
+Software generalists,IBM SPSS/WS/CA,Advanced analytics breadth,5.010229133
+Software generalists,Microsoft Azure/Server,Advanced analytics breadth,7.133291615
+Software generalists,Microsoft Power BI,Advanced analytics breadth,8.180851064
+Software generalists,SAS,Advanced analytics breadth,8.67325228
+Software generalists,Peer Group Average,Advanced analytics breadth,6.930767819
+Software generalists,IBM SPSS/WS,Analytics,4.265852128
+Software generalists,IBM SPSS/WS/CA,Analytics,4.335224946
+Software generalists,Microsoft Azure/Server,Analytics,5.009082065
+Software generalists,Microsoft Power BI,Analytics,8.074024243
+Software generalists,SAS,Analytics,7.255881387
+Software generalists,Peer Group Average,Analytics,5.788012954
+Software generalists,IBM SPSS/WS,Model scoring,4.648648649
+Software generalists,IBM SPSS/WS/CA,Model scoring,4.26458037
+Software generalists,Microsoft Azure/Server,Model scoring,4.648648649
+Software generalists,Microsoft Power BI,Model scoring,8.297297297
+Software generalists,SAS,Model scoring,10
+Software generalists,Peer Group Average,Model scoring,6.371834993
+Software generalists,IBM SPSS/WS,Model management,6
+Software generalists,IBM SPSS/WS/CA,Model management,3.333333333
+Software generalists,Microsoft Azure/Server,Model management,4.857142857
+Software generalists,Microsoft Power BI,Model management,7.333333333
+Software generalists,SAS,Model management,10
+Software generalists,Peer Group Average,Model management,6.304761905
+Software generalists,IBM SPSS/WS,Operationalization,5.459459459
+Software generalists,IBM SPSS/WS/CA,Operationalization,3.705832148
+Software generalists,Microsoft Azure/Server,Operationalization,4.773745174
+Software generalists,Microsoft Power BI,Operationalization,7.718918919
+Software generalists,SAS,Operationalization,10
+Software generalists,Peer Group Average,Operationalization,6.33159114

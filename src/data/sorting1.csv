@@ -1,0 +1,355 @@
+﻿id,answer
+105,Less than 25
+105,25 - 75
+105,76 - 300
+105,More than 300
+106,Less than 25
+106,25 - 75
+106,76 - 300
+106,More than 300
+107,Less than 50
+107,51-100
+107,101 - 250
+107,251 - 500
+107,501 - 1000
+107,1001 – 2500
+107,2501 – 10000
+107,10001 -  100000
+107,More than 100000
+108,1 to less than 5%
+108,5 to less than 10%
+108,10 to less than 15%
+108,15 to less than 20%
+108,20 to less than 30%
+108,30 to less than 40%
+108,40 to less than 50%
+108,50 to less than 75%
+108,More than 75%
+116,Good
+116,Moderate
+116,Poor
+117,Less than 1 month
+117,1 to less than 3 months
+117,3 to less than 6 months
+117,6 to less than 12 months
+117,1 to less than 2 years
+117,2 to less than 3 years
+117,3 years or more
+118,Good
+118,Moderate
+118,Poor
+119,Good
+119,Moderate
+119,Poor
+120,Good
+120,Moderate
+120,Poor
+121,Good
+121,Moderate
+121,Poor
+122,Good
+122,Moderate
+122,Poor
+123,Before 2009
+123,2009
+123,2010
+123,2011
+123,2012
+123,2013
+123,2014
+123,2015
+123,2016
+123,2017
+123,This year/2018
+124,Excellent
+124,Good
+124,Satisfactory
+124,Poor
+124,Very poor
+125,Excellent
+125,Good
+125,Satisfactory
+125,Poor
+125,Very poor
+125,Not used vendor support so far
+126,Definitely
+126,Probably
+126,Maybe
+126,Probably not
+126,Definitely not
+130,Excellent
+130,Good
+130,Satisfactory
+130,Poor
+130,Very poor
+131,Excellent
+131,Good
+131,Satisfactory
+131,Poor
+131,Very poor
+132,Excellent
+132,Good
+132,Satisfactory
+132,Poor
+132,Very poor
+133,Excellent
+133,Good
+133,Satisfactory
+133,Poor
+133,Very poor
+134,Excellent
+134,Good
+134,Satisfactory
+134,Poor
+134,Very poor
+135,In use
+135,Planned
+135,Wanted/required but not possible
+135,Not required
+136,In use
+136,Planned
+136,Wanted/required but not possible
+136,Not required
+137,In use
+137,Planned
+137,Wanted/required but not possible
+137,Not required
+138,In use
+138,Planned
+138,Wanted/required but not possible
+138,Not required
+139,In use
+139,Planned
+139,Wanted/required but not possible
+139,Not required
+140,In use
+140,Planned
+140,Wanted/required but not possible
+140,Not required
+141,In use
+141,Planned
+141,Wanted/required but not possible
+141,Not required
+142,In use
+142,Planned
+142,Wanted/required but not possible
+142,Not required
+143,In use
+143,Planned
+143,Wanted/required but not possible
+143,Not required
+144,In use
+144,Planned
+144,Wanted/required but not possible
+144,Not required
+145,In use
+145,Planned
+145,Wanted/required but not possible
+145,Not required
+146,High
+146,Moderate
+146,Low
+146,Not achieved
+147,High
+147,Moderate
+147,Low
+147,Not achieved
+148,High
+148,Moderate
+148,Low
+148,Not achieved
+149,High
+149,Moderate
+149,Low
+149,Not achieved
+150,High
+150,Moderate
+150,Low
+150,Not achieved
+151,High
+151,Moderate
+151,Low
+151,Not achieved
+152,High
+152,Moderate
+152,Low
+152,Not achieved
+153,High
+153,Moderate
+153,Low
+153,Not achieved
+154,Before 2009
+154,2009
+154,2010
+154,2011
+154,2012
+154,2013
+154,2014
+154,2015
+154,2016
+154,2017
+154,This year/2018
+161,Good
+161,Moderate
+161,Poor
+164,Good
+164,Moderate
+164,Poor
+165,Good
+165,Moderate
+165,Poor
+166,Good
+166,Moderate
+166,Poor
+167,Good
+167,Moderate
+167,Poor
+168,Good
+168,Moderate
+168,Poor
+158,Excellent
+158,Good
+158,Satisfactory
+158,Poor
+158,Very poor
+163,Definitely
+163,Probably
+163,Maybe
+163,Probably not
+163,Definitely not
+160,Less than 1 month
+160,1 to less than 3 months
+160,3 to less than 6 months
+160,6 to less than 12 months
+160,1 to less than 2 years
+160,2 to less than 3 years
+160,3 years or more
+169,High
+169,Moderate
+169,Low
+169,Not achieved
+170,High
+170,Moderate
+170,Low
+170,Not achieved
+171,High
+171,Moderate
+171,Low
+171,Not achieved
+172,High
+172,Moderate
+172,Low
+172,Not achieved
+173,High
+173,Moderate
+173,Low
+173,Not achieved
+174,High
+174,Moderate
+174,Low
+174,Not achieved
+175,High
+175,Moderate
+175,Low
+175,Not achieved
+176,High
+176,Moderate
+176,Low
+176,Not achieved
+177,Excellent
+177,Good
+177,Satisfactory
+177,Poor
+177,Very poor
+178,Excellent
+178,Good
+178,Satisfactory
+178,Poor
+178,Very poor
+179,Excellent
+179,Good
+179,Satisfactory
+179,Poor
+179,Very poor
+180,Excellent
+180,Good
+180,Satisfactory
+180,Poor
+180,Very poor
+181,Excellent
+181,Good
+181,Satisfactory
+181,Poor
+181,Very poor
+182,In use
+182,Planned
+182,Wanted/required but not possible
+182,Not required
+183,In use
+183,Planned
+183,Wanted/required but not possible
+183,Not required
+184,In use
+184,Planned
+184,Wanted/required but not possible
+184,Not required
+185,In use
+185,Planned
+185,Wanted/required but not possible
+185,Not required
+186,In use
+186,Planned
+186,Wanted/required but not possible
+186,Not required
+187,In use
+187,Planned
+187,Wanted/required but not possible
+187,Not required
+188,In use
+188,Planned
+188,Wanted/required but not possible
+188,Not required
+189,In use
+189,Planned
+189,Wanted/required but not possible
+189,Not required
+190,In use
+190,Planned
+190,Wanted/required but not possible
+190,Not required
+191,In use
+191,Planned
+191,Wanted/required but not possible
+191,Not required
+192,In use
+192,Planned
+192,Wanted/required but not possible
+192,Not required
+196,"Yes, cloud solution already in use"
+196,"No, but use is planned"
+196,"Not planned, but it is conceivable"
+196,Neither planned nor conceivable
+199,Very important
+199,Important
+199,Not very important
+199,Not important at all
+200,Very important
+200,Important
+200,Not very important
+200,Not important at all
+201,Very important
+201,Important
+201,Not very important
+201,Not important at all
+202,Very important
+202,Important
+202,Not very important
+202,Not important at all
+203,Very important
+203,Important
+203,Not very important
+203,Not important at all
+204,Very important
+204,Important
+204,Not very important
+204,Not important at all
