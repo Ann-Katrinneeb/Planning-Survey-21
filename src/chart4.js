@@ -4,7 +4,7 @@ export function initProdComp() {
 
 
 
-  var valueID, prodId = ["Alteryx", "Dataiku", "IBM SPSS/WS"],
+  var valueID, prodId = ["BOARD", "CoPlanner", "Corporate Planning"],
     KPIID = ["Business benefits", "Project success"];
   var KPIComp = "Business benefits",
     KPICompDataFil, peerSelect5, prodSelection5, KPISelection5, svg5Up, vendors, peerSelectHelper = 0, sorting=0;
@@ -46,7 +46,6 @@ export function initProdComp() {
           nameSort();
           sorting=0;
         });
-
 
   var widthHelper5 = parseInt(chart5.style("width"));
 

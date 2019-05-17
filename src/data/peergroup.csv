@@ -1,39 +1,107 @@
 ﻿Peergroup,Product
-All products,Alteryx
-All products,Dataiku
-All products,IBM SPSS/WS
-All products,IBM SPSS/WS/CA
-All products,Microsoft Azure/SQL Server
-All products,Microsoft Power BI
-All products,Qlik
-All products,RapidMiner
-All products,SAS
-All products,Tableau
-Advanced analytics platforms,Alteryx
-Advanced analytics platforms,Dataiku
-Advanced analytics platforms,IBM SPSS/WS
-Advanced analytics platforms,Microsoft Azure/SQL Server
-Advanced analytics platforms,RapidMiner
-Advanced analytics platforms,SAS
-Data preparation products,Alteryx
-Data preparation products,Dataiku
-Data preparation products,IBM SPSS/WS
-Data preparation products,IBM SPSS/WS/CA
-Data preparation products,Microsoft Azure/SQL Server
-Data preparation products,Microsoft Power BI
-Data preparation products,Qlik
-Data preparation products,RapidMiner
-Data preparation products,SAS
-Data preparation products,Tableau
-Data discovery products,IBM SPSS/WS/CA
-Data discovery products,Microsoft Azure/SQL Server
-Data discovery products,Microsoft Power BI
-Data discovery products,Qlik
-Data discovery products,RapidMiner
-Data discovery products,SAS
-Data discovery products,Tableau
-Software generalists,IBM SPSS/WS
-Software generalists,IBM SPSS/WS/CA
-Software generalists,Microsoft Azure/SQL Server
-Software generalists,Microsoft Power BI
-Software generalists,SAS
+All products,BOARD
+All products,CoPlanner
+All products,Corporate Planning
+All products,Cubeware
+All products,evidanza
+All products,IBM Plan Analytics
+All products,IDL
+All products,Infor
+All products,Jedox
+All products,Longview Pl. (On-Pr.)  
+All products,LucaNet
+All products,macs Controlling
+All products,Oracle Hyp Plan
+All products,Unit4 Prevero
+All products,Prophix
+All products,SAP BPC
+All products,SAP BW IP
+All products,SAP Analytics Cloud
+All products,CCH Tagetik
+All products,Longview Pl. (Tidem.)
+All products,Valsight
+All products,OneStream
+BI-focused Products,BOARD
+BI-focused Products,Cubeware
+BI-focused Products,evidanza
+BI-focused Products,IBM Plan Analytics
+BI-focused Products,IDL
+BI-focused Products,Infor
+BI-focused Products,Jedox
+BI-focused Products,Longview Pl. (On-Pr.)  
+BI-focused Products,Prophix
+BI-focused Products,SAP Analytics Cloud
+BI-focused Products,Unit4 Prevero
+Enterprise Software Vendors,IBM Plan Analytics
+Enterprise Software Vendors,Infor
+Enterprise Software Vendors,Oracle Hyp Plan
+Enterprise Software Vendors,SAP Analytics Cloud
+Enterprise Software Vendors,SAP BPC
+Enterprise Software Vendors,SAP BW IP
+European Vendors,BOARD
+European Vendors,CoPlanner
+European Vendors,Corporate Planning
+European Vendors,Cubeware
+European Vendors,evidanza
+European Vendors,IDL
+European Vendors,Jedox
+European Vendors,LucaNet
+European Vendors,macs Controlling
+European Vendors,SAP Analytics Cloud
+European Vendors,SAP BW IP
+European Vendors,SAP BPC
+European Vendors,CCH Tagetik
+European Vendors,Unit4 Prevero
+European Vendors,Valsight
+Financial Performance Management Products,CoPlanner
+Financial Performance Management Products,Corporate Planning
+Financial Performance Management Products,IDL
+Financial Performance Management Products,Infor
+Financial Performance Management Products,Longview Pl. (On-Pr.)  
+Financial Performance Management Products,LucaNet
+Financial Performance Management Products,OneStream
+Financial Performance Management Products,SAP BPC
+Financial Performance Management Products,CCH Tagetik
+Financial Performance Management Products,Unit4 Prevero
+Financial Performance Management Products,Longview Pl. (Tidem.)
+Flexible Planning Platforms,BOARD
+Flexible Planning Platforms,Cubeware
+Flexible Planning Platforms,IBM Plan Analytics
+Flexible Planning Platforms,Oracle Hyp Plan
+Flexible Planning Platforms,Prophix
+Flexible Planning Platforms,SAP BW IP
+Flexible Planning Platforms,Valsight
+Flexible Planning Platforms,Peer Group Average
+Flexible Planning Platforms,BOARD
+Flexible Planning Platforms,Cubeware
+Flexible Planning Platforms,IBM Plan Analytics
+Flexible Planning Platforms,Oracle Hyp Plan
+Flexible Planning Platforms,Prophix
+Flexible Planning Platforms,SAP BW IP
+Flexible Planning Platforms,Valsight
+Global Vendors,BOARD
+Global Vendors,IBM Plan Analytics
+Global Vendors,Infor
+Global Vendors,Oracle Hyp Plan
+Global Vendors,SAP Analytics Cloud
+Global Vendors,SAP BPC
+Global Vendors,SAP BW IP
+Global Vendors,CCH Tagetik
+North American Vendors,IBM Plan Analytics
+North American Vendors,Infor
+North American Vendors,Longview Pl. (On-Pr.)  
+North American Vendors,OneStream
+North American Vendors,Oracle Hyp Plan
+North American Vendors,Prophix
+North American Vendors,Longview Pl. (Tidem.)
+Solution-focused Planning Products,CoPlanner
+Solution-focused Planning Products,Corporate Planning
+Solution-focused Planning Products,evidanza
+Solution-focused Planning Products,Infor
+Solution-focused Planning Products,Jedox
+Solution-focused Planning Products,Longview Pl. (On-Pr.)  
+Solution-focused Planning Products,macs Controlling
+Solution-focused Planning Products,Unit4 Prevero
+Solution-focused Planning Products,SAP Analytics Cloud
+Solution-focused Planning Products,SAP BPC
+Solution-focused Planning Products,Longview Pl. (Tidem.)

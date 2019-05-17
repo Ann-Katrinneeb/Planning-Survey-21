@@ -3,7 +3,7 @@ import data3 from './data/all_new.csv';
 
 export function initProdKPI() {
 
-  var product = "Alteryx";
+  var product = "BOARD";
   var yLegend = 225;
   var tranx = -135;
   var tranx2 = 92;
@@ -19,7 +19,7 @@ export function initProdKPI() {
   var xLine = 280;
   var xLine2 = xLine - 8;
   var peerGroupDummy = "All products",
-    productDummy = "Alteryx",
+    productDummy = "BOARD",
     peerSelectDataUp, prodSelectDataUp, productSelect, peerSelectUp;
   var legend = {
     left: -70,
@@ -62,7 +62,7 @@ export function initProdKPI() {
   var barHeight5 = 12;
   var spacing = 14.5;
   var barHeight4 = 4;
-  var productSelecter = "Alteryx";
+  var productSelecter = "BOARD";
   var peerSelecter = "All products";
   var prodSelectData;
 

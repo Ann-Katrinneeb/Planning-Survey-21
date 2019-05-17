@@ -1,0 +1,107 @@
+﻿qValue,qlong
+,
+101,Country
+102,Which department do you work in?
+103,European regions
+104,Industry sector
+105,Number of Advanced Analytics product users
+106,Number of Advanced Analytics users
+107,Number of employees
+108,Percentage of Advanced Analytics users in company
+109,Position in company
+110,Region
+111,Which products has your organization acquired?
+112,With which product are you most familiar?
+113,Which products has your organization evaluated?
+114,Why was the product chosen?
+115,Did your organization conduct a formal product selection?
+116,How would you rate the level of administrator satisfaction with the implementation of technical aspects of your project?
+117,How long did it take to implement the advanced analytics software?
+118,How would you rate the level of satisfaction with the completion of the project within the budget originally specified?
+119,How would you rate the level of satisfaction with the completion of the project within the timeframe originally specified?
+120,How would you rate the level of user satisfaction with the implementation of business aspects of your project?
+121,How would you rate the level of user satisfaction with the implementation of technical aspects of your project?
+122,How would you rate the level of satisfaction with integration in business processes?
+123,When did your company start using the product?
+124,How would you rate the price-to-value of your advanced analytics product?
+299,"What, if any, are the most serious problems in the use of your product?"
+125,How would you rate the level of support provided by the vendor?
+126,Would you recommend others to buy your advanced analytics product?
+127,Which of the following data sources/formats does your company access?
+128,Which of the following data preparation capabilities does your company use?
+129,Which of the following use cases does your company use?
+130,How would you rate the governance capabilities of your product?
+131,How would you rate the user guidance capabilities of your product?
+132,How would you rate the collaborative capabilities of your product?
+133,How would you rate the possibilities to implement analytical models?
+134,"How would you rate the functionality for data preparation, visualization and machine learning of your product?"
+135,Do you use or plan to use your product for advanced analysis?
+136,Do you use or plan to use your product for visual analysis/data exploration?
+137,Do you use or plan to use your product for data visualization?
+138,Do you use or plan to use your product for data access?
+139,Do you use or plan to use your product for data manipulation/data preparation?
+140,Do you use or plan to use your product for data profiling?
+141,Do you use or plan to use your product for classification?
+142,Do you use or plan to use your product for clustering?
+143,Do you use or plan to use your product for time series analysis?
+144,Do you use or plan to use your product for deployment/scoring?
+145,Do you use or plan to use your product for model management?
+146,To what extent has time to insight improved?
+147,To what extent has the quality of analytical results improved?
+148,To what extent has the transparency of data usage improved?
+149,To what extent has the re-use and use of analytical insights improved?
+150,To what extent have resource requirements decreased?
+151,To what extent has your employee satisfaction improved?
+152,To what extent have you saved on headcount in business departments or IT?
+153,To what extent have you reduced costs? (IT or non-IT)
+154,When did your company start using the product?
+155,Which products has your organization acquired?
+156,With which product are you most familiar?
+157,Which products has your organization evaluated?
+158,How would you rate the price-to-value of your advanced analytics product?
+159,"What, if any, are the most serious problems in the use of your product?"
+160,How long did it take to implement the non-commercial software?
+161,How would you rate the level of administrator satisfaction with the implementation of technical aspects of your project?
+162,Why was the product chosen?
+163,Would you recommend others to buy your advanced analytics product?
+164,How would you rate the level of satisfaction with the completion of the project within the budget originally specified?
+165,How would you rate the level of satisfaction with the completion of the project within the timeframe originally specified?
+166,How would you rate the level of satisfaction with integration in business processes?
+167,How would you rate the level of user satisfaction with the implementation of business aspects of your project?
+168,How would you rate the level of user satisfaction with the implementation of technical aspects of your project?
+169,To what extent has the quality of analytical results improved?
+170,To what extent has your employee satisfaction improved?
+171,To what extent has time to insight improved?
+172,To what extent has the transparency of data usage improved?
+173,To what extent has the re-use and use of analytical insights improved?
+174,To what extent have you reduced costs? (IT or non-IT)
+175,To what extent have resource requirements decreased?
+176,To what extent have you saved on headcount in business departments or IT?
+177,How would you rate the collaborative capabilities of your product?
+178,"How would you rate the functionality for data preparation, visualization and machine learning of your product?"
+179,How would you rate the governance capabilities of your product?
+180,How would you rate the possibilities to implement analytical models?
+181,How would you rate the user guidance capabilities of your product?
+182,Do you use or plan to use your product for advanced analysis?
+183,Do you use or plan to use your product for classification?
+184,Do you use or plan to use your product for clustering?
+185,Do you use or plan to use your product for data access?
+186,Do you use or plan to use your product for data manipulation/data preparation?
+187,Do you use or plan to use your product for data profiling?
+188,Do you use or plan to use your product for data visualization?
+189,Do you use or plan to use your product for deployment/scoring?
+190,Do you use or plan to use your product for model management?
+191,Do you use or plan to use your product for time series analysis?
+192,Do you use or plan to use your product for visual analysis/data exploration?
+193,Which of the following data preparation capabilities does your company use?
+194,Which of the following data sources/formats does your company access?
+195,Which of the following use cases does your company use?
+196,"Do you currently use a cloud-based advanced analytics, data discovery or data preparation solution, or can you imagine doing so?"
+197,What are the most important reasons for not using cloud-based tools?
+198,What are the main reasons for using or wanting to use a cloud-based solution?
+199,"In the context of digitalization, how important is deep learning to your company's success?"
+200,"In the context of digitalization, how important is predictive maintenance to your company's success?"
+201,"In the context of digitalization, how important are artificial intelligence/cognitive applications to your company's success?"
+202,"In the context of digitalization, how important is data literacy to your company's success?"
+203,"In the context of digitalization, how important is prescriptive analytics to your company's success?"
+204,"In the context of digitalization, how important is automated machine learning to your company's success?"
