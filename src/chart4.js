@@ -4,7 +4,7 @@ export function initProdComp() {
 
 
 
-  var valueID, prodId = ["BOARD", "CoPlanner", "Corporate Planning"],
+  var valueID, prodId = ["Adaptive Insights", "Anaplan", "Board"],
     KPIID = ["Business benefits", "Project success"];
   var KPIComp = "Business benefits",
     KPICompDataFil, peerSelect5, prodSelection5, KPISelection5, svg5Up, vendors, peerSelectHelper = 0, sorting=0;
@@ -141,7 +141,7 @@ export function initProdComp() {
       return xScale5(d.value);
     })
     .attr("height", barHeightKPIComp / 2.5)
-    .attr("fill", "#2f72b0");
+    .attr("fill", "#8E9499");
 
   var vendorlabels5 = svg5.selectAll("text.prodText")
     .data(function(d) {
@@ -329,7 +329,7 @@ export function initProdComp() {
       .attr("y1", height5 + margin5.bottom)
       .attr("x2", width5 + margin5.right)
       .attr("y2", height5 + margin5.bottom)
-      .attr("stroke", "#8eb4d9")
+      .attr("stroke", "#f2f2f2")
       .attr("stroke-width", "1")
 
     svg5Up.append("text")
@@ -359,7 +359,7 @@ export function initProdComp() {
         return xScale5(d.value);
       })
       .attr("height", barHeightKPIComp / 2.5)
-      .attr("fill", "#2f72b0");
+      .attr("fill", "#8E9499");
 
 
     var vendorlabels5up = svg5Up.selectAll(".prodText")

@@ -53,7 +53,8 @@
 123,2015
 123,2016
 123,2017
-123,This year/2018
+123,2018
+123,This year/2019
 124,Excellent
 124,Good
 124,Satisfactory
@@ -263,7 +264,8 @@
 166,2015
 166,2016
 166,2017
-166,This year/2018
+166,2018
+166,This year/2019
 167,Excellent
 167,Good
 167,Satisfactory
@@ -451,3 +453,33 @@
 211,Planned within 12 months
 211,Planned in the long term
 211,Not required
+212,Very good
+212,Good
+212,Average
+212,Poor
+212,Very poor
+213,Very good
+213,Good
+213,Average
+213,Poor
+213,Very poor
+214,Very good
+214,Good
+214,Average
+214,Poor
+214,Very poor
+215,Very good
+215,Good
+215,Average
+215,Poor
+215,Very poor
+216,Very good
+216,Good
+216,Average
+216,Poor
+216,Very poor
+217,Very good
+217,Good
+217,Average
+217,Poor
+217,Very poor

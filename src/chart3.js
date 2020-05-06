@@ -3,26 +3,26 @@ import data3 from './data/all_new.csv';
 
 export function initProdKPI() {
 
-  var product = "BOARD";
+  var product = "Board";
   var yLegend = 225;
   var tranx = -135;
   var tranx2 = 92;
   var tranx3 = 112;
   var labely = 20;
-  var triggerHelperLeg = (respHelp > 580) ? 1 : 0;
+  var triggerHelperLeg = (respHelp > 590) ? 1 : 0;
 
 
   var xRankpeer = -50;
   var ySpace = 22.5;
   var labelxSpac = -140;
   var SpaceLine = 22.5;
-  var xLine = 280;
+  var xLine = 290;
   var xLine2 = xLine - 8;
   var peerGroupDummy = "All products",
-    productDummy = "BOARD",
+    productDummy = "Board",
     peerSelectDataUp, prodSelectDataUp, productSelect, peerSelectUp;
   var legend = {
-    left: -70,
+    left: -80,
     top: 20
   };
   var countRank = 0;
@@ -41,7 +41,7 @@ export function initProdKPI() {
   var respHelp = parseInt(respHelp2.style("width"));
 
 
-  var valueHead = (respHelp > 580) ? 165 : -130;
+  var valueHead = (respHelp > 590) ? 165 : -130;
 
   var xValueLabels = 150;
   var xValueLabels2 = (respHelp > 305) ? -110 : -130;
@@ -62,7 +62,7 @@ export function initProdKPI() {
   var barHeight5 = 12;
   var spacing = 14.5;
   var barHeight4 = 4;
-  var productSelecter = "BOARD";
+  var productSelecter = "Board";
   var peerSelecter = "All products";
   var prodSelectData;
 
@@ -230,7 +230,7 @@ export function initProdKPI() {
   });
 
   var helpWithResp2 = (widthHelper3 + labelxSpac - 160);
-  var lineLenght2 = (respHelp > 580) ? 270 : helpWithResp2;
+  var lineLenght2 = (respHelp > 590) ? 270 : helpWithResp2;
 
   svg3.selectAll("line.table")
     .data(KPInest)
@@ -238,7 +238,7 @@ export function initProdKPI() {
     .append("line")
     .attr("class", "table")
     .attr("x1", function(d) {
-      return labelxSpac - 125;
+      return labelxSpac - 135;
     })
     .attr("y1", function(d, i) {
       return 28 + (ySpace * i)
@@ -258,9 +258,9 @@ export function initProdKPI() {
     .append("text")
     .attr("class", "KPI")
     .attr("x", function(d) {
-      if (d.value == 2 || d.value == 4) return labelxSpac - 125;
-      if (d.value == 3) return labelxSpac - 115;
-      else return labelxSpac - 150;
+      if (d.value == 2 || d.value == 4) return labelxSpac - 135;
+      if (d.value == 3) return labelxSpac - 125;
+      else return labelxSpac - 160;
     })
     .attr("y", function(d, i) {
       return (barHeight5 / 2) + 14.5 + (i * ySpace)
@@ -332,7 +332,7 @@ export function initProdKPI() {
     })
     .enter()
     .append("rect")
-    .style("display", (respHelp > 580) ? "block" : "none")
+    .style("display", (respHelp > 590) ? "block" : "none")
     .attr("class", "blocksInd2")
     .attr("x", function(d, i) {
       return (i + 1) * (-barWidth);
@@ -361,7 +361,7 @@ export function initProdKPI() {
     })
     .enter()
     .append("rect")
-    .style("display", (respHelp > 580) ? "block" : "none")
+    .style("display", (respHelp > 590) ? "block" : "none")
     .attr("class", "KPIind")
     .attr("x", function(d, i) {
       if (d.Rank == "n/a") return 0;
@@ -419,7 +419,7 @@ export function initProdKPI() {
       return (barHeight5 / 2) + spacing + (ySpace * i)
     })
     .attr("text-anchor", "end")
-    .style("display", (respHelp > 580) ? "inline" : "none")
+    .style("display", (respHelp > 590) ? "inline" : "none")
     .text(function(d) {
       if (d.Rank == "n/a") {
         return "n/a";
@@ -435,7 +435,7 @@ export function initProdKPI() {
     .data(productRank)
     .enter().append("text")
     .attr("class", "values")
-    .attr("x", (respHelp > 580) ? xValueLabels : xValueLabels2)
+    .attr("x", (respHelp > 590) ? xValueLabels : xValueLabels2)
     .attr("y", function(d, i) {
       return (barHeight5 / 2) + spacing + (ySpace * i)
     })
@@ -461,7 +461,7 @@ export function initProdKPI() {
     .append("rect")
     .attr("class", "valu rank")
     .attr("transform", "translate(" + tranx2 + ",-6.5)")
-    .attr("x", (respHelp > 580) ? xBar : xBar2)
+    .attr("x", (respHelp > 590) ? xBar : xBar2)
     .attr("y", function(d, i) {
       return (barHeight5 / 2) + 14.5 + (i * ySpace)
     })
@@ -469,7 +469,7 @@ export function initProdKPI() {
       if (d.Value == "n/a") {
         return 0;
       } else {
-        return (respHelp > 580) ? (d.Value * 10) : xScaleBar(d.Value);
+        return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
       }
     })
     .attr("height", barHeight4)
@@ -484,8 +484,8 @@ export function initProdKPI() {
     .attr("class", "average")
     .attr("transform", "translate(" + tranx2 + ",-11)")
     .attr("x", function(d) {
-      var xVal = (respHelp > 580) ? xBar : xBar2;
-      var valueAvg = (respHelp > 580) ? (d.value * 10) : xScaleBar(d.value)
+      var xVal = (respHelp > 590) ? xBar : xBar2;
+      var valueAvg = (respHelp > 590) ? (d.value * 10) : xScaleBar(d.value)
       return xVal + valueAvg;
     })
     .attr("y", function(d, i) {
@@ -515,7 +515,7 @@ export function initProdKPI() {
 
 
     svg3.selectAll(".KPIind")
-      .style("display", (respHelp > 580) ? "block" : "none")
+      .style("display", (respHelp > 590) ? "block" : "none")
       .style("display", function(d, i) {
         if (d.Rank == "n/a") {
           return "none";
@@ -580,7 +580,7 @@ export function initProdKPI() {
         if (d.Value == "n/a") {
           return 0;
         } else {
-          return (respHelp > 580) ? (d.Value * 10) : xScaleBar(d.Value);
+          return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
         }
       })
       .style("fill", "#416ba4");
@@ -642,7 +642,7 @@ export function initProdKPI() {
         if (d.Value == "n/a") {
           return 0;
         } else {
-          return (respHelp > 580) ? (d.Value * 10) : xScaleBar(d.Value);
+          return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
         }
       })
       .style("fill", "#416ba4");
@@ -668,8 +668,8 @@ export function initProdKPI() {
         if (d.value == null) {
           return 70
         } else {
-          var xVal = (respHelp > 580) ? xBar : xBar2;
-          var valueAvg = (respHelp > 580) ? (d.value * 10) : xScaleBar(d.value)
+          var xVal = (respHelp > 590) ? xBar : xBar2;
+          var valueAvg = (respHelp > 590) ? (d.value * 10) : xScaleBar(d.value)
           return xVal + valueAvg;
         }
       })
@@ -737,7 +737,7 @@ export function initProdKPI() {
     var KPIgroupsUp2 = svg3.selectAll("g.KPIs2")
       .data(KPInest4);
 
-    if (respHelp > 580) {
+    if (respHelp > 590) {
 
       KPIgroups2.selectAll("rect.blocksInd2").remove()
 
@@ -764,7 +764,7 @@ export function initProdKPI() {
     var KPIgroupsUp = svg3.selectAll("g.KPIs")
       .data(KPInest2);
 
-    if (respHelp > 580) {
+    if (respHelp > 590) {
 
       KPIgroupsUp.selectAll("rect.KPIind").remove();
 
@@ -830,7 +830,7 @@ export function initProdKPI() {
 
 
   svg3.append("text")
-    .style("display", (respHelp > 580) ? "block" : "none")
+    .style("display", (respHelp > 590) ? "block" : "none")
     .attr("x", xRankpeer)
     .attr("id", "xRankpeerID")
     .attr("y", -20)
@@ -839,11 +839,11 @@ export function initProdKPI() {
 
 
   var helpWithResp = (widthHelper3 + labelxSpac - 160);
-  var lineLenght = (respHelp > 580) ? 270 : helpWithResp;
+  var lineLenght = (respHelp > 590) ? 270 : helpWithResp;
 
   svg3.append("line")
     .attr("class", "head")
-    .attr("x1", labelxSpac - 150)
+    .attr("x1", labelxSpac - 160)
     .attr("y1", -10)
     .attr("x2", lineLenght)
     .attr("y2", -10)
@@ -852,163 +852,163 @@ export function initProdKPI() {
 
   // KPI Group 1 Lines
 
-  var count5 = 0;
-  var LineGroupBegin5 = 28;
 
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin5)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin5 + 10 + (2 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
+  				var count5 = 0;
+  				var LineGroupBegin5 = 27;
 
-  for (count5 = 0; count5 < 3; count5++) {
+  				svg3.append("line")
+  					.attr("class", "head")
+  					.attr("x1", -xLine)
+  					.attr("y1", LineGroupBegin5)
+  					.attr("x2", -xLine)
+  					.attr("y2", LineGroupBegin5 + 12 + (2 * SpaceLine))
+  					.attr("stroke", "white")
+  					.attr("stroke-width", "1");
 
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin5 + 10 + (SpaceLine * count5))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin5 + 10 + (SpaceLine * count5))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
+  				for (count5 = 0; count5 < 3; count5++) {
 
-  // KPI Group 2 Lines
+  					svg3.append("line")
+  						.attr("class", "head")
+  						.attr("x1", -xLine)
+  						.attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count5))
+  						.attr("x2", -xLine2)
+  						.attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count5))
+  						.attr("stroke", "white")
+  						.attr("stroke-width", "1");
+  				}
 
-  var count = 0;
-  var LineGroupBegin = 118;
+  				// KPI Group 2 Lines
 
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin + 10 + (3 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
+  				var count = 0;
+  				var LineGroupBegin = 118;
 
-  for (count = 0; count < 4; count++) {
+  				svg3.append("line")
+  					.attr("class", "head")
+  					.attr("x1", -xLine)
+  					.attr("y1", LineGroupBegin)
+  					.attr("x2", -xLine)
+  					.attr("y2", LineGroupBegin + 12 + (4 * SpaceLine))
+  					.attr("stroke", "white")
+  					.attr("stroke-width", "1");
 
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin + 10 + (SpaceLine * count))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin + 10 + (SpaceLine * count))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
+  				for (count = 0; count < 5; count++) {
 
-
-  // KPI Group 3 Lines
-
-  var count1 = 0;
-  var LineGroupBegin2 = 231;
-
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin2)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin2 + 10 + (4 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
-
-  for (count1 = 0; count1 < 5; count1++) {
-
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin2 + 10 + (SpaceLine * count1))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin2 + 10 + (SpaceLine * count1))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
+  					svg3.append("line")
+  						.attr("class", "head")
+  						.attr("x1", -xLine)
+  						.attr("y1", LineGroupBegin + 12 + (SpaceLine * count))
+  						.attr("x2", -xLine2)
+  						.attr("y2", LineGroupBegin + 12 + (SpaceLine * count))
+  						.attr("stroke", "white")
+  						.attr("stroke-width", "1");
+  				}
 
 
-  // KPI Group 4 Lines
+  				// KPI Group 3 Lines
 
-  var count2 = 0;
-  var LineGroupBegin3 = 365;
+  				var count1 = 0;
+  				var LineGroupBegin2 = 250;
 
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin3)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin3 + 10 + (3 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
+  				svg3.append("line")
+  					.attr("class", "head")
+  					.attr("x1", -xLine)
+  					.attr("y1", LineGroupBegin2)
+  					.attr("x2", -xLine)
+  					.attr("y2", LineGroupBegin2 + 12 + (9 * SpaceLine))
+  					.attr("stroke", "white")
+  					.attr("stroke-width", "1");
 
-  for (count2 = 0; count2 < 4; count2++) {
+  				for (count1 = 0; count1 < 10; count1++) {
 
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin3 + 10 + (SpaceLine * count2))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin3 + 10 + (SpaceLine * count2))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
-
-
-  // KPI Group 5 Lines
-
-  var count3 = 0;
-  var LineGroupBegin4 = 590;
-
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin4)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin4 + 10 + (1 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
-
-  for (count3 = 0; count3 < 2; count3++) {
-
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin4 + 10 + (SpaceLine * count3))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin4 + 10 + (SpaceLine * count3))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
+  					svg3.append("line")
+  						.attr("class", "head")
+  						.attr("x1", -xLine)
+  						.attr("y1", LineGroupBegin2 + 12 + (SpaceLine * count1))
+  						.attr("x2", -xLine2)
+  						.attr("y2", LineGroupBegin2 + 12 + (SpaceLine * count1))
+  						.attr("stroke", "white")
+  						.attr("stroke-width", "1");
+  				}
 
 
-  // KPI Group 6 Lines
+  				// KPI Group 4 Lines
 
-  var count6 = 0;
-  var LineGroupBegin6 = 478;
+  				// var count2 = 0;
+  				// var LineGroupBegin3 = 365;
+  				//
+  				// svg3.append("line")
+  				// 	.attr("class", "head")
+  				// 	.attr("x1", -xLine)
+  				// 	.attr("y1", LineGroupBegin3)
+  				// 	.attr("x2", -xLine)
+  				// 	.attr("y2", LineGroupBegin3 + 11 + (3 * SpaceLine))
+  				// 	.attr("stroke", "grey")
+  				// 	.attr("stroke-width", "0.3");
 
-  svg3.append("line")
-    .attr("class", "head")
-    .attr("x1", -xLine)
-    .attr("y1", LineGroupBegin6)
-    .attr("x2", -xLine)
-    .attr("y2", LineGroupBegin6 + 10 + (3 * SpaceLine))
-    .attr("stroke", "white")
-    .attr("stroke-width", "1");
+  				// for (count2 = 0; count2 < 4; count2++) {
+  				//
+  				// 	svg3.append("line")
+  				// 		.attr("class", "head")
+  				// 		.attr("x1", -xLine)
+  				// 		.attr("y1", LineGroupBegin3 + 11 + (SpaceLine * count2))
+  				// 		.attr("x2", -xLine2)
+  				// 		.attr("y2", LineGroupBegin3 + 11 + (SpaceLine * count2))
+  				// 		.attr("stroke", "grey")
+  				// 		.attr("stroke-width", "0.3");
+  				// }
 
-  for (count6 = 0; count6 < 4; count6++) {
 
-    svg3.append("line")
-      .attr("class", "head")
-      .attr("x1", -xLine)
-      .attr("y1", LineGroupBegin6 + 10 + (SpaceLine * count6))
-      .attr("x2", -xLine2)
-      .attr("y2", LineGroupBegin6 + 10 + (SpaceLine * count6))
-      .attr("stroke", "white")
-      .attr("stroke-width", "1");
-  }
+  				// KPI Group 5 Lines
+
+  				var count3 = 0;
+  				var LineGroupBegin4 = 495;
+
+  				svg3.append("line")
+  					.attr("class", "head")
+  					.attr("x1", -xLine)
+  					.attr("y1", LineGroupBegin4)
+  					.attr("x2", -xLine)
+  					.attr("y2", LineGroupBegin4 + 12 + (4 * SpaceLine))
+  					.attr("stroke", "white")
+  					.attr("stroke-width", "1");
+
+  				for (count3 = 0; count3 <5; count3++) {
+
+  					svg3.append("line")
+  						.attr("class", "head")
+  						.attr("x1", -xLine)
+  						.attr("y1", LineGroupBegin4 + 12 + (SpaceLine * count3))
+  						.attr("x2", -xLine2)
+  						.attr("y2", LineGroupBegin4 + 12 + (SpaceLine * count3))
+  						.attr("stroke", "white")
+  						.attr("stroke-width", "1");
+  				}
+
+  				// KPI Group 6 Lines
+
+  				var count4 = 0;
+  				var LineGroupBegin5 = 635;
+
+  				svg3.append("line")
+  					.attr("class", "head")
+  					.attr("x1", -xLine)
+  					.attr("y1", LineGroupBegin5)
+  					.attr("x2", -xLine)
+  					.attr("y2", LineGroupBegin5 + 12 + (1 * SpaceLine))
+  					.attr("stroke", "white")
+  					.attr("stroke-width", "1");
+
+  				for (count4 = 0; count4 <2; count4++) {
+
+  					svg3.append("line")
+  						.attr("class", "head")
+  						.attr("x1", -xLine)
+  						.attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count4))
+  						.attr("x2", -xLine2)
+  						.attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count4))
+  						.attr("stroke", "white")
+  						.attr("stroke-width", "1");
+  				}
 
   // Legend
 
@@ -1016,7 +1016,7 @@ export function initProdKPI() {
     .attr("transform", "translate(" + legend.left + "," + legend.top + ")");
 
   var LegTrans = LegTrans3.append("g").attr("class", "legendText3")
-    .style("display", (respHelp > 580) ? "block" : "none");
+    .style("display", (respHelp > 590) ? "block" : "none");
 
 
   LegTrans.append("rect")
@@ -1085,7 +1085,7 @@ export function initProdKPI() {
     .style("fill", "#42b648");
 
 
-  var legendleft2 = (respHelp > 580) ? 0 : -230;
+  var legendleft2 = (respHelp > 590) ? 0 : -230;
 
   var LegTrans2 = LegTrans3.append("g").attr("class", "legendText2")
     .attr("transform", "translate(" + legendleft2 + "," + 0 + ")");
@@ -1166,7 +1166,7 @@ export function initProdKPI() {
     respHelp2 = d3.select("#Compdash");
     respHelp = parseInt(respHelp2.style("width"));
 
-    valueHead = (respHelp > 580) ? 165 : -130;
+    valueHead = (respHelp > 590) ? 165 : -130;
 
     xValueLabels2 = (respHelp > 305) ? -110 : -130;
     xBar2 = (respHelp > 305) ? -190 : -210;
@@ -1189,14 +1189,14 @@ export function initProdKPI() {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     helpWithResp2 = (widthHelper3 + labelxSpac - 160);
-    lineLenght2 = (respHelp > 580) ? 270 : helpWithResp2;
+    lineLenght2 = (respHelp > 590) ? 270 : helpWithResp2;
 
     d3.select("#chart3").selectAll("line.table")
       .attr("x2", lineLenght2);
 
 
     d3.select("#chart3").selectAll("text.values")
-      .attr("x", (respHelp > 580) ? xValueLabels : xValueLabels2);
+      .attr("x", (respHelp > 590) ? xValueLabels : xValueLabels2);
 
     // Values bar
 
@@ -1204,12 +1204,12 @@ export function initProdKPI() {
 
 
     d3.select("#chart3").selectAll("rect.valu")
-      .attr("x", (respHelp > 580) ? xBar : xBar2)
+      .attr("x", (respHelp > 590) ? xBar : xBar2)
       .attr("width", function(d) {
         if (d.Value == "n/a") {
           return 0;
         } else {
-          return (respHelp > 580) ? (d.Value * 10) : xScaleBar(d.Value);
+          return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
         }
       });
 
@@ -1218,8 +1218,8 @@ export function initProdKPI() {
     svg3.selectAll("rect.average")
       .attr("x", function(d) {
         if (d.value ) {
-          var xVal = (respHelp > 580) ? xBar : xBar2;
-          var valueAvg = (respHelp > 580) ? (d.value * 10) : xScaleBar(d.value)
+          var xVal = (respHelp > 590) ? xBar : xBar2;
+          var valueAvg = (respHelp > 590) ? (d.value * 10) : xScaleBar(d.value)
           return xVal + valueAvg;
         }
       });
@@ -1229,12 +1229,12 @@ export function initProdKPI() {
 
 
     var helpWithResp = (widthHelper3 + labelxSpac - 160);
-    var lineLenght = (respHelp > 580) ? 270 : helpWithResp;
+    var lineLenght = (respHelp > 590) ? 270 : helpWithResp;
 
     svg3.select(".head")
       .attr("x2", lineLenght);
 
-    var legendleft2 = (respHelp > 580) ? 0 : -230;
+    var legendleft2 = (respHelp > 590) ? 0 : -230;
 
     d3.select(".legendText2")
       .attr("transform", "translate(" + legendleft2 + "," + 0 + ")");
@@ -1244,7 +1244,7 @@ export function initProdKPI() {
 
 
 
-    if (respHelp > 580 && triggerHelperLeg == 1) {
+    if (respHelp > 590 && triggerHelperLeg == 1) {
 
       legendRes.style("display", "block");
       d3.select("#chart3").select("#xRankpeerID").style("display", "block");
@@ -1256,7 +1256,7 @@ export function initProdKPI() {
 
       triggerHelperLeg = 0;
 
-    } else if (respHelp <= 580) {
+    } else if (respHelp <= 590) {
       legendRes.style("display", "none");
       d3.select("#chart3").select("#xRankpeerID").style("display", "none");
       d3.select("#chart3").selectAll("rect.blocksInd2").style("display", "none");

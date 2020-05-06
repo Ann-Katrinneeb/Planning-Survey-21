@@ -26,13 +26,12 @@
 125,How would you rate the level of support provided by the vendor?
 126,Would you recommend others to buy your planning product?
 302,To what degree are you satisfied with your planning tool?
-127,How would you rate the commenting and annotation functionality of your product?
+127,How would you rate your product's functionality for legal consolidation?
 128,How would you rate your product's coverage of additional reporting/analysis requirements?
 129,How would you rate your product's coverage of planning-specific requirements?
 130,How would you rate your product in terms of data integration from and interfaces to source systems?
 131,How would you rate your product's ease of use for developers of planning applications?
 132,How would you rate your product's ease of use for planners?
-133,How would you rate your product's functionality for data allocation / splashing?
 301,How would you rate your product's functionality for doing forecasts?
 134,How would you rate your product's functionality for simulations?
 135,How would you rate your product's functionality for plan data entry?
@@ -72,13 +71,12 @@
 169,Why was Excel chosen?
 170,Would you recommend others to buy Excel?
 171,To what degree are you satisfied with Excel?
-172,How would you rate the commenting and annotation functionality of your product?
+172,How would you rate your product's functionality for legal consolidation?
 173,How would you rate your product's coverage of additional reporting/analysis requirements?
 174,How would you rate your product's coverage of planning-specific requirements?
 175,How would you rate your product in terms of data integration from and interfaces to source systems?
 176,How would you rate your product's ease of use for developers of planning applications?
 177,How would you rate your product's ease of use for planners?
-178,How would you rate your product's functionality for data allocation / splashing?
 179,How would you rate your product's functionality for doing forecasts?
 180,How would you rate your product's functionality for simulations?
 181,How would you rate your product's functionality for plan data entry?
@@ -112,3 +110,9 @@
 209,Does your company use simulation and analysis of scenarios?
 210,Does your company use your planning product in the cloud?
 211,Does your company use value driver-based planning?
+212,How would you rate the vendor's general conduct during the purchasing process?
+213,How would you rate the vendor's understanding of your industry-specific requirements during the purchasing process?
+214,How flexible was the vendor in terms of pricing and contract?
+215,How would you rate your experience with the vendor when evaluating the product and during contract negotiation?
+216,How would you rate the vendor's ability to understand your organization's needs?
+217,How timely and thorough were the vendor's responses to product-related and technical questions you had?

@@ -1,8 +1,8 @@
 {
-  "name": "Analyzer",
+  "name": "analyzer",
   "sideEffects": false,
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000a\u0000n\u0000a\u0000l\u0000y\u0000z\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
