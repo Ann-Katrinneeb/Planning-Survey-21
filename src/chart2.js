@@ -19,7 +19,7 @@ var barHeightKPI = 30;
 
 var formKPI = d3.format(".1f")
 
-var KPI = "Business benefits";
+var KPI = "Business Benefits";
 
 function keys(d) {
   return d.vendor;

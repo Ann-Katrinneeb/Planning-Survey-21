@@ -1,107 +1,103 @@
 ﻿Peergroup,Product
-All products,BOARD
-All products,CoPlanner
+All products,Adaptive Insights
+All products,Anaplan
+All products,Board
+All products,CCH Tagetik
 All products,Corporate Planning
 All products,Cubeware
+All products,cubus
 All products,evidanza
-All products,IBM Plan Analytics
+All products,IBM Plan. Analytics
 All products,IDL
-All products,Infor
+All products,Infor d/EPM
 All products,Jedox
-All products,Longview Pl. (On-Pr.)  
-All products,LucaNet
-All products,macs Controlling
-All products,Oracle Hyp Plan
-All products,Unit4 Prevero
-All products,Prophix
-All products,SAP BPC
-All products,SAP BW IP
-All products,SAP Analytics Cloud
-All products,CCH Tagetik
+All products,Longview Pl. (On-Pr.)
 All products,Longview Pl. (Tidem.)
-All products,Valsight
+All products,LucaNet
+All products,macs Software
 All products,OneStream
-BI-focused Products,BOARD
+All products,Oracle Hyp. Plan.
+All products,Prophix
+All products,SAP Analytics Cloud
+All products,SAP BPC
+All products,Unit4 FP&A
+All products,Valsight
+BI-focused Products,Board
 BI-focused Products,Cubeware
+BI-focused Products,cubus
 BI-focused Products,evidanza
-BI-focused Products,IBM Plan Analytics
+BI-focused Products,IBM Plan. Analytics
 BI-focused Products,IDL
-BI-focused Products,Infor
+BI-focused Products,Infor d/EPM
 BI-focused Products,Jedox
-BI-focused Products,Longview Pl. (On-Pr.)  
+BI-focused Products,Longview Pl. (On-Pr.)
 BI-focused Products,Prophix
 BI-focused Products,SAP Analytics Cloud
-BI-focused Products,Unit4 Prevero
-Enterprise Software Vendors,IBM Plan Analytics
-Enterprise Software Vendors,Infor
-Enterprise Software Vendors,Oracle Hyp Plan
+BI-focused Products,Unit4 FP&A
+Enterprise Software Vendors,IBM Plan. Analytics
+Enterprise Software Vendors,Infor d/EPM
+Enterprise Software Vendors,Oracle Hyp. Plan.
 Enterprise Software Vendors,SAP Analytics Cloud
 Enterprise Software Vendors,SAP BPC
-Enterprise Software Vendors,SAP BW IP
-European Vendors,BOARD
-European Vendors,CoPlanner
+European Vendors,Board
+European Vendors,CCH Tagetik
 European Vendors,Corporate Planning
 European Vendors,Cubeware
+European Vendors,cubus
 European Vendors,evidanza
 European Vendors,IDL
 European Vendors,Jedox
 European Vendors,LucaNet
-European Vendors,macs Controlling
+European Vendors,macs Software
 European Vendors,SAP Analytics Cloud
-European Vendors,SAP BW IP
 European Vendors,SAP BPC
-European Vendors,CCH Tagetik
-European Vendors,Unit4 Prevero
+European Vendors,Unit4 FP&A
 European Vendors,Valsight
-Financial Performance Management Products,CoPlanner
+Financial Performance Management Products,Adaptive Insights
+Financial Performance Management Products,CCH Tagetik
 Financial Performance Management Products,Corporate Planning
 Financial Performance Management Products,IDL
-Financial Performance Management Products,Infor
-Financial Performance Management Products,Longview Pl. (On-Pr.)  
+Financial Performance Management Products,Infor d/EPM
+Financial Performance Management Products,Longview Pl. (On-Pr.)
 Financial Performance Management Products,LucaNet
 Financial Performance Management Products,OneStream
 Financial Performance Management Products,SAP BPC
-Financial Performance Management Products,CCH Tagetik
-Financial Performance Management Products,Unit4 Prevero
-Financial Performance Management Products,Longview Pl. (Tidem.)
-Flexible Planning Platforms,BOARD
+Financial Performance Management Products,Unit4 FP&A
+Flexible Planning Platforms,Board
 Flexible Planning Platforms,Cubeware
-Flexible Planning Platforms,IBM Plan Analytics
-Flexible Planning Platforms,Oracle Hyp Plan
+Flexible Planning Platforms,IBM Plan. Analytics
+Flexible Planning Platforms,Oracle Hyp. Plan.
 Flexible Planning Platforms,Prophix
-Flexible Planning Platforms,SAP BW IP
+Flexible Planning Platforms,SAP BPC
 Flexible Planning Platforms,Valsight
-Flexible Planning Platforms,Peer Group Average
-Flexible Planning Platforms,BOARD
-Flexible Planning Platforms,Cubeware
-Flexible Planning Platforms,IBM Plan Analytics
-Flexible Planning Platforms,Oracle Hyp Plan
-Flexible Planning Platforms,Prophix
-Flexible Planning Platforms,SAP BW IP
-Flexible Planning Platforms,Valsight
-Global Vendors,BOARD
-Global Vendors,IBM Plan Analytics
-Global Vendors,Infor
-Global Vendors,Oracle Hyp Plan
+Global Vendors,Adaptive Insights
+Global Vendors,Anaplan
+Global Vendors,Board
+Global Vendors,CCH Tagetik
+Global Vendors,IBM Plan. Analytics
+Global Vendors,Infor d/EPM
+Global Vendors,Jedox
+Global Vendors,Oracle Hyp. Plan.
 Global Vendors,SAP Analytics Cloud
 Global Vendors,SAP BPC
-Global Vendors,SAP BW IP
-Global Vendors,CCH Tagetik
-North American Vendors,IBM Plan Analytics
-North American Vendors,Infor
-North American Vendors,Longview Pl. (On-Pr.)  
-North American Vendors,OneStream
-North American Vendors,Oracle Hyp Plan
-North American Vendors,Prophix
+North American Vendors,Adaptive Insights
+North American Vendors,Anaplan
+North American Vendors,IBM Plan. Analytics
+North American Vendors,Infor d/EPM
+North American Vendors,Longview Pl. (On-Pr.)
 North American Vendors,Longview Pl. (Tidem.)
-Solution-focused Planning Products,CoPlanner
+North American Vendors,OneStream
+North American Vendors,Oracle Hyp. Plan.
+North American Vendors,Prophix
+Solution-focused Planning Products,Adaptive Insights
+Solution-focused Planning Products,Anaplan
 Solution-focused Planning Products,Corporate Planning
+Solution-focused Planning Products,cubus
 Solution-focused Planning Products,evidanza
-Solution-focused Planning Products,Infor
+Solution-focused Planning Products,Infor d/EPM
 Solution-focused Planning Products,Jedox
-Solution-focused Planning Products,Longview Pl. (On-Pr.)  
-Solution-focused Planning Products,macs Controlling
-Solution-focused Planning Products,Unit4 Prevero
-Solution-focused Planning Products,SAP Analytics Cloud
-Solution-focused Planning Products,SAP BPC
+Solution-focused Planning Products,Longview Pl. (On-Pr.)
 Solution-focused Planning Products,Longview Pl. (Tidem.)
+Solution-focused Planning Products,macs Software
+Solution-focused Planning Products,SAP Analytics Cloud
+Solution-focused Planning Products,Unit4 FP&A

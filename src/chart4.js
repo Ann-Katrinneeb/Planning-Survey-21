@@ -4,9 +4,9 @@ export function initProdComp() {
 
 
 
-  var valueID, prodId = ["Adaptive Insights", "Anaplan", "Board"],
-    KPIID = ["Business benefits", "Project success"];
-  var KPIComp = "Business benefits",
+  var valueID, prodId = ["Anaplan", "Board", "CCH Tagetik"],
+    KPIID = ["Business Benefits", "Project Success"];
+  var KPIComp = "Business Benefits",
     KPICompDataFil, peerSelect5, prodSelection5, KPISelection5, svg5Up, vendors, peerSelectHelper = 0, sorting=0;
   var initDisable = 0;
 

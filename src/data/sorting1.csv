@@ -1,10 +1,10 @@
 ﻿id,answer
-105,Less than 25
-105,25 - 75
+105,25 and less
+105,26 - 75
 105,76 - 300
 105,More than 300
-106,Less than 25
-106,25 - 75
+106,25 and less
+106,26 - 75
 106,76 - 300
 106,More than 300
 107,Less than 150
@@ -43,7 +43,7 @@
 121,Good
 121,Moderate
 121,Poor
-123,Before 2009
+123,Before 2010
 123,2009
 123,2010
 123,2011
@@ -54,7 +54,8 @@
 123,2016
 123,2017
 123,2018
-123,This year/2019
+123,2019
+123,This year/2020
 124,Excellent
 124,Good
 124,Satisfactory
@@ -79,7 +80,7 @@
 126,Definitely not
 302,Very satisfied
 302,Somewhat satisfied
-302,Neither satisfied nor dissatisfied (neutral)
+302,Neither satisfied nor dissatisfied
 302,Somewhat dissatisfied
 302,Very dissatisfied
 127,Very good
@@ -278,7 +279,7 @@
 170,Definitely not
 171,Very satisfied
 171,Somewhat satisfied
-171,Neither satisfied nor dissatisfied (neutral)
+171,Neither satisfied nor dissatisfied
 171,Somewhat dissatisfied
 171,Very dissatisfied
 172,Very good

@@ -907,18 +907,18 @@ export function initProdKPI() {
   				// KPI Group 3 Lines
 
   				var count1 = 0;
-  				var LineGroupBegin2 = 250;
+  				var LineGroupBegin2 = 252;
 
   				svg3.append("line")
   					.attr("class", "head")
   					.attr("x1", -xLine)
   					.attr("y1", LineGroupBegin2)
   					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin2 + 12 + (9 * SpaceLine))
+  					.attr("y2", LineGroupBegin2 + 12 + (8 * SpaceLine))
   					.attr("stroke", "white")
   					.attr("stroke-width", "1");
 
-  				for (count1 = 0; count1 < 10; count1++) {
+  				for (count1 = 0; count1 < 9; count1++) {
 
   					svg3.append("line")
   						.attr("class", "head")
@@ -961,7 +961,7 @@ export function initProdKPI() {
   				// KPI Group 5 Lines
 
   				var count3 = 0;
-  				var LineGroupBegin4 = 495;
+  				var LineGroupBegin4 = 477;
 
   				svg3.append("line")
   					.attr("class", "head")
@@ -987,7 +987,7 @@ export function initProdKPI() {
   				// KPI Group 6 Lines
 
   				var count4 = 0;
-  				var LineGroupBegin5 = 635;
+  				var LineGroupBegin5 = 612;
 
   				svg3.append("line")
   					.attr("class", "head")

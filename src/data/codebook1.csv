@@ -1,12 +1,12 @@
 ﻿qValue,qlong
-101,Country
+101,In which country are you located?
 102,Which department do you work in?
-104,Industry sector
+104,Which of the following best describes your organization's industry sector?
 105,Number of planning product users
 106,Number of planning users
-107,Number of employees
+107,How many employees are there in your entire organization?
 108,Percentage of planning users in company
-109,Position in company
+109,What position do you hold within the company?
 103,Region
 111,Which products has your organization acquired?
 112,With which product are you most familiar?
@@ -26,7 +26,7 @@
 125,How would you rate the level of support provided by the vendor?
 126,Would you recommend others to buy your planning product?
 302,To what degree are you satisfied with your planning tool?
-127,How would you rate your product's functionality for legal consolidation?
+127,How would you rate your product's legal consolidation functionality?
 128,How would you rate your product's coverage of additional reporting/analysis requirements?
 129,How would you rate your product's coverage of planning-specific requirements?
 130,How would you rate your product in terms of data integration from and interfaces to source systems?
@@ -58,7 +58,7 @@
 156,To what extent have you saved on headcount in business departments or IT?
 157,Does your company integrate different sub-budgets?
 158,Does your company integrate strategic and operational plans?
-159,Does your company use mobile BI/planning?
+159,Does your company integrate planning with analytics?
 160,Does your company use predefined planning content?
 161,Does your company use predictive planning?
 162,Does your company use self-service planning?
@@ -71,44 +71,44 @@
 169,Why was Excel chosen?
 170,Would you recommend others to buy Excel?
 171,To what degree are you satisfied with Excel?
-172,How would you rate your product's functionality for legal consolidation?
-173,How would you rate your product's coverage of additional reporting/analysis requirements?
-174,How would you rate your product's coverage of planning-specific requirements?
-175,How would you rate your product in terms of data integration from and interfaces to source systems?
-176,How would you rate your product's ease of use for developers of planning applications?
-177,How would you rate your product's ease of use for planners?
-179,How would you rate your product's functionality for doing forecasts?
-180,How would you rate your product's functionality for simulations?
-181,How would you rate your product's functionality for plan data entry?
-182,How would you rate your product's predefined planning content?
-183,How would you rate your product's workflow functionality?
-184,Do you use or plan to use your product for ad hoc query and reporting?
-185,Do you use or plan to use your product for advanced analysis?
-186,Do you use or plan to use your product for basic data analysis?
-187,Do you use or plan to use your product for dashboards/scorecards?
-188,Do you use or plan to use your product for financial consolidation?
-189,Do you use or plan to use your product for standard/enterprise reporting?
+172,How would you rate Excel's functionality for legal consolidation?
+173,How would you rate Excel's coverage of additional reporting/analysis requirements?
+174,How would you rate Excel's coverage of planning-specific requirements?
+175,How would you rate Excel in terms of data integration from and interfaces to source systems?
+176,How would you rate Excel's ease of use for developers of planning applications?
+177,How would you rate the ease of use for planners of Excel?
+179,How would you rate Excel's forecasting functionality?
+180,How would you rate Excel's functionality for doing simulations?
+181,How would you rate Excel's functionality for plan data entry?
+182,How would you rate the predefined planning content in Excel?
+183,How would you rate the workflow functionality of Excel?
+184,Do you use or plan to use Excel for ad hoc query and reporting?
+185,Do you use or plan to use Excel for advanced analysis?
+186,Do you use or plan to use Excel for basic data analysis?
+187,Do you use or plan to use Excel for dashboards/Scorecards?
+188,Do you use or plan to use Excel for financial consolidation?
+189,Do you use or plan to use Excel for standard/enterprise reporting?
 190,To what extent has the quality of your planning results improved?
 191,To what extent has your employee satisfaction improved?
 192,To what extent has the integration of different sub-budgets improved?
 193,To what extent has the integration of planning with reporting/analysis improved?
 194,To what extent has the integration of strategic and operational planning improved?
 195,To what extent has your competitive advantage improved?
-196,To what extent has your planning frequency improved?
+196,To what extent has your planning frequency increased?
 197,To what extent has the transparency of planning increased?
 198,To what extent has your planning become more precise/detailed?
 199,To what extent have you reduced costs? (IT or non-IT)
-200,To what extent have you reduced planning complexity?
-201,To what extent have you reduced the resource requirements for planning?
+200,To what extent have you reduced your planning complexity?
+201,To what extent have you reduced resource requirements for planning?
 202,To what extent have you saved on headcount in business departments or IT?
 203,Does your company integrate different sub-budgets?
 204,Does your company integrate strategic and operational plans?
-205,Does your company use mobile BI/planning?
+205,Does your company integrate planning with analytics?
 206,Does your company use predefined planning content?
 207,Does your company use predictive planning?
 208,Does your company use self-service planning?
 209,Does your company use simulation and analysis of scenarios?
-210,Does your company use your planning product in the cloud?
+210,Does your company use Excel in the cloud?
 211,Does your company use value driver-based planning?
 212,How would you rate the vendor's general conduct during the purchasing process?
 213,How would you rate the vendor's understanding of your industry-specific requirements during the purchasing process?
