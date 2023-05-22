@@ -45,22 +45,20 @@ export function initAnaly() {
       "CCH Tagetik",
       "CoPlanner",
       "Corporate Planning",
-      "evidanza",
-      "IBM Planning Analytics",
-      "IDL",
-      "Infor d/EPM",
+      "IBM Plan. Analytics",
       "Jedox",
       "LucaNet",
       "macs Software",
       "OneStream",
       "Oracle Cloud EPM",
+      "Planful",
       "Prophix",
       "SAP Analytics Cloud",
       "SAP BPC",
-      "Serviceware Performance",
+      "Serviceware Perf.",
       "Unit4 FP&A",
       "Valsight",
-      "Workday Adaptive Planning",
+      "Workday Adapt. Plan.",
       "Other",
       "Did not respond"
     ],
@@ -101,46 +99,42 @@ export function initAnaly() {
     ],
 
     selectedCon = [
-      "Algeria",
-      "Angola",
       "Australia",
       "Austria",
+      "Bahamas",
       "Belgium",
-      "Bosnia and Herzegovina",
       "Brazil",
       "Canada",
-      "Chile",
       "China",
       "Colombia",
-      "Costa Rica",
       "Croatia",
-      "Cyprus",
       "Czech Republic",
       "Denmark",
-      "Finland",
       "France",
       "Germany",
       "Greece",
       "Hungary",
+      "Iceland",
       "India",
-      "Ireland",
-      "Israel",
       "Italy",
       "Japan",
+      "Kenya",
+      "Lebanon",
       "Liechtenstein",
       "Lithuania",
       "Luxembourg",
       "Malaysia",
-      "Monaco",
+      "Mexico",
       "Netherlands",
-      "New Caledonia",
+      "New Zealand",
+      "Nigeria",
       "Norway",
       "Pakistan",
-      "Papua New Guinea",
       "Poland",
+      "Portugal",
+      "Romania",
       "Russian Federation",
       "Saudi Arabia",
-      "Serbia",
       "Singapore",
       "Slovenia",
       "South Africa",
@@ -155,6 +149,8 @@ export function initAnaly() {
       "United Kingdom",
       "United States of America",
       "United States Virgin Islands",
+      "Uruguay",
+      "Zimbabwe",
       "Did not respond"
     ],
     templateReg = "Regionfilter",
@@ -166,13 +162,13 @@ export function initAnaly() {
     templateProd = "Product filter",
     filterData3 = [];
 
-  d3.csv("src/data/analyzer8.csv").then(function(data) {
-    d3.csv("src/data/sorting1.csv").then(function(dataSort) {
-      d3.csv("src/data/codebook1.csv").then(function(data2) {
+  d3.csv("src/data/analyzer8.csv").then(function (data) {
+    d3.csv("src/data/sorting1.csv").then(function (dataSort) {
+      d3.csv("src/data/codebook1.csv").then(function (data2) {
         var filterData = data;
         var resultAryObj = [];
 
-        dataSort.forEach(function(d) {
+        dataSort.forEach(function (d) {
           d.id = +d.id;
         });
 
@@ -185,11 +181,11 @@ export function initAnaly() {
           parseInt(chart.style("width"));
 
         var margin = {
-            top: 20,
-            right: 45,
-            bottom: 40,
-            left: widthHelper > 450 ? 310 : 5
-          },
+          top: 20,
+          right: 45,
+          bottom: 40,
+          left: widthHelper > 450 ? 310 : 5
+        },
           width = widthHelper - margin.left - margin.right,
           height = 700 - margin.top - margin.bottom,
           height2,
@@ -199,7 +195,7 @@ export function initAnaly() {
 
         var xScale = d3.scaleLinear().range([0, width]);
 
-        var maxVal = d3.max(resultAryObj, function(d) {
+        var maxVal = d3.max(resultAryObj, function (d) {
           return d.answerVal;
         });
 
@@ -207,7 +203,7 @@ export function initAnaly() {
 
         var answers = d3
           .set(
-            resultAryObj.map(function(d) {
+            resultAryObj.map(function (d) {
               return d.answerOpt;
             })
           )
@@ -229,7 +225,7 @@ export function initAnaly() {
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-        resultAryObj.sort(function(a, b) {
+        resultAryObj.sort(function (a, b) {
           return b.answerVal - a.answerVal;
         });
 
@@ -241,14 +237,14 @@ export function initAnaly() {
           .append("rect")
           .attr("class", "bars")
           .attr("x", 0)
-          .attr("y", function(d, i) {
+          .attr("y", function (d, i) {
             return barHeight * i;
           })
-          .attr("width", function(d) {
+          .attr("width", function (d) {
             return xScale(d.answerVal);
           })
           .attr("height", barHeight / 2.5)
-          .attr("fill", "#8E9499");
+          .attr("fill", "#006382");
 
         var answerLabels = svg
           .selectAll("text.Answerlabel")
@@ -257,7 +253,7 @@ export function initAnaly() {
           .append("text")
           .attr("class", "Answerlabel")
           .attr("x", widthHelper > 450 ? -12 : 0)
-          .attr("y", function(d, i) {
+          .attr("y", function (d, i) {
 
             if (widthHelper > 450) {
               return barHeight * i + barHeight / 2.5 - 1;
@@ -265,7 +261,7 @@ export function initAnaly() {
               return barHeight * i + barHeight / 2.5 - 16;
             }
           })
-          .text(function(d, i) {
+          .text(function (d, i) {
             return d.answerOpt;
           })
           .attr("fill", "rgb(102, 102, 102)")
@@ -278,7 +274,7 @@ export function initAnaly() {
           .enter()
           .append("text")
           .attr("class", "valueLabel")
-          .attr("x", function(d) {
+          .attr("x", function (d) {
             if (widthHelper > 450) {
               return xScale(d.answerVal) + 8;
             } else {
@@ -286,7 +282,7 @@ export function initAnaly() {
             }
 
           })
-          .attr("y", function(d, i) {
+          .attr("y", function (d, i) {
 
             if (widthHelper > 450) {
               return barHeight * i + barHeight / 2.5 - 1;
@@ -296,7 +292,7 @@ export function initAnaly() {
 
 
           })
-          .text(function(d, i) {
+          .text(function (d, i) {
             return (d.answerVal >= 0.005) ? form(d.answerVal) : formUnder1(d.answerVal);
           })
           .attr("fill", "rgb(102, 102, 102)")
@@ -313,20 +309,20 @@ export function initAnaly() {
 
           if (sortID == 1) {
 
-            dataUpd.sort(function(a, b) {
+            dataUpd.sort(function (a, b) {
               return b.answerVal - a.answerVal;
             });
 
           } else if (sortID == 2) {
-            var dataSortFil = dataSort.filter(function(d) {
+            var dataSortFil = dataSort.filter(function (d) {
               return d.id == valID;
             })
 
-            var dataSortMap = dataSortFil.map(function(d, i) {
+            var dataSortMap = dataSortFil.map(function (d, i) {
               return d.answer
             })
 
-            dataUpd = dataUpd.sort(function(a, b) {
+            dataUpd = dataUpd.sort(function (a, b) {
               return dataSortMap.indexOf(a.answerOpt) - dataSortMap.indexOf(b.answerOpt);
             });
 
@@ -338,15 +334,15 @@ export function initAnaly() {
 
           var widthHelper = parseInt(chart.style("width"));
           var margin = {
-              top: 20,
-              right: 45,
-              bottom: 40,
-              left: widthHelper > 450 ? 310 : 5
-            },
+            top: 20,
+            right: 45,
+            bottom: 40,
+            left: widthHelper > 450 ? 310 : 5
+          },
             width = widthHelper - margin.left - margin.right,
             height = 700 - margin.top - margin.bottom;
 
-          maxVal = d3.max(dataUpd, function(d) {
+          maxVal = d3.max(dataUpd, function (d) {
             return d.answerVal;
           });
 
@@ -354,7 +350,7 @@ export function initAnaly() {
 
           var answers = d3
             .set(
-              dataUpd.map(function(d) {
+              dataUpd.map(function (d) {
                 return d.answerOpt;
               })
             )
@@ -381,9 +377,9 @@ export function initAnaly() {
 
           answerLabelsUpdate.exit().remove();
 
-          setTimeout(function() {
+          setTimeout(function () {
             answerLabelsUpdate
-              .attr("y", function(d, i) {
+              .attr("y", function (d, i) {
 
                 if (widthHelper > 450) {
                   return barHeight * i + barHeight / 2.5 - 1;
@@ -391,18 +387,18 @@ export function initAnaly() {
                   return barHeight * i + barHeight / 2.5 - 16;
                 }
               })
-              .text(function(d, i) {
+              .text(function (d, i) {
                 return d.answerOpt;
               });
           }, 300);
 
-          setTimeout(function() {
+          setTimeout(function () {
             answerLabelsUpdate
               .enter()
               .append("text")
               .attr("class", "Answerlabel")
               .attr("x", widthHelper > 450 ? -12 : 0)
-              .attr("y", function(d, i) {
+              .attr("y", function (d, i) {
 
                 if (widthHelper > 450) {
                   return barHeight * i + barHeight / 2.5 - 1;
@@ -410,7 +406,7 @@ export function initAnaly() {
                   return barHeight * i + barHeight / 2.5 - 16;
                 }
               })
-              .text(function(d, i) {
+              .text(function (d, i) {
                 return d.answerOpt;
               })
               .attr("fill", "rgb(102, 102, 102)")
@@ -431,7 +427,7 @@ export function initAnaly() {
 
           valueLabelsUpdate
             .transition()
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
               if (widthHelper > 450) {
                 return barHeight * i + barHeight / 2.5 - 1;
               } else {
@@ -440,19 +436,19 @@ export function initAnaly() {
             })
             .transition()
             .duration(700)
-            .attr("x", function(d) {
+            .attr("x", function (d) {
               if (widthHelper > 450) {
                 return xScale(d.answerVal) + 8;
               } else {
                 return xScale(d.answerVal) + 4;
               }
             })
-            .tween("text", function(d) {
+            .tween("text", function (d) {
               var node = this;
               var currentVal = this.textContent;
               var currentPer = currentVal.replace("%", "") / 100;
               var i = d3.interpolate(currentPer, d.answerVal);
-              return function(t) {
+              return function (t) {
                 node.textContent = (i(t) >= 0.005) ? form(i(t)) : formUnder1(i(t));
               };
             });
@@ -463,21 +459,21 @@ export function initAnaly() {
             .enter()
             .append("text")
             .attr("class", "valueLabel")
-            .attr("x", function(d) {
+            .attr("x", function (d) {
               if (widthHelper > 450) {
                 return xScale(0) + 8;
               } else {
                 return xScale(0) + 4;
               }
             })
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
               if (widthHelper > 450) {
                 return barHeight * i + barHeight / 2.5 - 1;
               } else {
                 return barHeight * i + barHeight / 2.5 - 3;
               }
             })
-            .text(function(d, i) {
+            .text(function (d, i) {
               return form(0);
             })
             .attr("fill", "rgb(102, 102, 102)")
@@ -485,19 +481,19 @@ export function initAnaly() {
             .attr("font-size", widthHelper > 450 ? 14 : 10)
             .transition()
             .duration(700)
-            .attr("x", function(d) {
+            .attr("x", function (d) {
               if (widthHelper > 450) {
                 return xScale(d.answerVal) + 8;
               } else {
                 return xScale(d.answerVal) + 4;
               }
             })
-            .tween("text", function(d) {
+            .tween("text", function (d) {
               var node = this;
               var currentVal = this.textContent;
               var currentPer = currentVal.replace("%", "") / 100;
               var i = d3.interpolate(currentPer, d.answerVal);
-              return function(t) {
+              return function (t) {
                 node.textContent = (i(t) >= 0.005) ? form(i(t)) : formUnder1(i(t));
               };
             });
@@ -506,12 +502,12 @@ export function initAnaly() {
 
           barsUpdate
             .transition()
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
               return barHeight * i;
             })
             .transition()
             .duration(700)
-            .attr("width", function(d) {
+            .attr("width", function (d) {
               return xScale(d.answerVal);
             });
 
@@ -522,15 +518,15 @@ export function initAnaly() {
             .append("rect")
             .attr("class", "bars")
             .attr("x", 0)
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
               return barHeight * i;
             })
             .attr("width", 0)
             .attr("height", barHeight / 2.5)
-            .attr("fill", "#8E9499")
+            .attr("fill", "#006382")
             .transition()
             .duration(700)
-            .attr("width", function(d) {
+            .attr("width", function (d) {
               return xScale(d.answerVal);
             });
         }
@@ -541,11 +537,11 @@ export function initAnaly() {
           var widthHelper = parseInt(d3.select("#chart").style("width"));
 
           var margin = {
-              top: 20,
-              right: 45,
-              bottom: 40,
-              left: widthHelper > 450 ? 310 : 5
-            },
+            top: 20,
+            right: 45,
+            bottom: 40,
+            left: widthHelper > 450 ? 310 : 5
+          },
             width = widthHelper - margin.left - margin.right;
 
           d3.select("#chart").select("svg")
@@ -557,14 +553,14 @@ export function initAnaly() {
           xScale.range([0, width]);
 
           d3.select("#analyID").selectAll("rect.bars")
-            .attr("width", function(d) {
+            .attr("width", function (d) {
               return xScale(d.answerVal);
             });
 
 
           d3.select("#analyID").selectAll(".Answerlabel")
             .attr("x", widthHelper > 450 ? -12 : 0)
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
 
               if (widthHelper > 450) {
                 return barHeight * i + barHeight / 2.5 - 1;
@@ -576,14 +572,14 @@ export function initAnaly() {
             .attr("font-size", widthHelper > 450 ? 14 : 10);
 
           d3.select("#analyID").selectAll(".valueLabel")
-            .attr("x", function(d) {
+            .attr("x", function (d) {
               if (widthHelper > 450) {
                 return xScale(d.answerVal) + 8;
               } else {
                 return xScale(d.answerVal) + 4;
               }
             })
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
               if (widthHelper > 450) {
                 return barHeight * i + barHeight / 2.5 - 1;
               } else {
@@ -595,11 +591,11 @@ export function initAnaly() {
         }
 
 
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
           resizeAnalyz()
         });
 
-        $("#question").change(function(e, i) {
+        $("#question").change(function (e, i) {
           checkStartQuestChange = 1;
           checkStartQuest = 1;
           id = $(e.target).val();
@@ -612,7 +608,7 @@ export function initAnaly() {
             calculMul(id);
           }
 
-          var questionLong = data2.filter(function(d, i) {
+          var questionLong = data2.filter(function (d, i) {
             return d.qValue == id;
           });
 
@@ -633,13 +629,13 @@ export function initAnaly() {
             var variablesSel = ["Q4_1102"];
           } else {
 
-            var variablesSel = variables.filter(function(d, i) {
+            var variablesSel = variables.filter(function (d, i) {
               var singleVar = confirmEnding(d, id);
               return singleVar;
             });
           }
 
-          var results = count(filterData, function(item) {
+          var results = count(filterData, function (item) {
             return item[variablesSel];
           });
 
@@ -672,11 +668,11 @@ export function initAnaly() {
           d3.select("#ncount")
             .transition()
             .duration(500)
-            .tween("text", function(d) {
+            .tween("text", function (d) {
               var node = this;
               var currentVal = this.textContent;
               var i = d3.interpolate(currentVal, resultssum);
-              return function(t) {
+              return function (t) {
                 node.textContent = form1(i(t));
               };
             });
@@ -695,7 +691,7 @@ export function initAnaly() {
 
           var keysHelper = d3.keys(data[0]);
 
-          var multiVars = keysHelper.filter(function(d, i) {
+          var multiVars = keysHelper.filter(function (d, i) {
             var multiVar = confirmEnding(d, id);
             return multiVar;
           });
@@ -704,7 +700,7 @@ export function initAnaly() {
           var FilterDataMulti;
           // var resultisMulti2 = {};
 
-          FilterDataMulti = filterData.map(function(d) {
+          FilterDataMulti = filterData.map(function (d) {
             var ret = {};
 
             for (var i = 0; i < multiVarsL; i++) {
@@ -718,7 +714,7 @@ export function initAnaly() {
           });
 
           for (var i = 0; i < multiVarsL; i++) {
-            resultsMulti = count(FilterDataMulti, function(item) {
+            resultsMulti = count(FilterDataMulti, function (item) {
               return item[multiVars[i]];
             });
 
@@ -766,11 +762,11 @@ export function initAnaly() {
           d3.select("#ncount")
             .transition()
             .duration(500)
-            .tween("text", function(d) {
+            .tween("text", function (d) {
               var node = this;
               var currentVal = this.textContent;
               var i = d3.interpolate(currentVal, nMultiCountAgg);
-              return function(t) {
+              return function (t) {
                 node.textContent = form1(i(t));
               };
             });
@@ -789,7 +785,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedRegLength; i++) {
-            var filterData2 = data.filter(function(d) {
+            var filterData2 = data.filter(function (d) {
               return d[templateReg] == selectedReg[i];
             });
             filterData3 = filterData3.concat(filterData2);
@@ -802,7 +798,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedITBULength; i++) {
-            var filterData4 = filterData3.filter(function(d) {
+            var filterData4 = filterData3.filter(function (d) {
               return d[templateITBU] == selectedITBU[i];
             });
 
@@ -816,7 +812,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedEmpLength; i++) {
-            var filterData6 = filterData5.filter(function(d) {
+            var filterData6 = filterData5.filter(function (d) {
               return d[templateEmp] == selectedEmp[i];
             });
 
@@ -834,7 +830,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedConLength; i++) {
-            var filterData10 = filterData7.filter(function(d) {
+            var filterData10 = filterData7.filter(function (d) {
               return d[templateCon] == selectedCon[i];
             });
 
@@ -851,7 +847,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedProdLength; i++) {
-            var filterData12 = filterData11.filter(function(d) {
+            var filterData12 = filterData11.filter(function (d) {
 
 
               return d[templateProd] == selectedProd[i];
@@ -869,7 +865,7 @@ export function initAnaly() {
           }
 
           for (var i = 0; i < selectedIndLength; i++) {
-            var filterData2 = filterData13.filter(function(d) {
+            var filterData2 = filterData13.filter(function (d) {
               return d[templateInd] == selectedInd[i];
             });
             filterData = filterData.concat(filterData2);
@@ -879,7 +875,7 @@ export function initAnaly() {
           return filterData;
         }
 
-        $("#region").change(function(e) {
+        $("#region").change(function (e) {
           selectedReg = $(e.target).val();
 
           filterData = [];
@@ -898,7 +894,7 @@ export function initAnaly() {
           }
         });
 
-        $("#employee").change(function(e) {
+        $("#employee").change(function (e) {
           selectedEmp = $(e.target).val();
 
           filterData = [];
@@ -917,7 +913,7 @@ export function initAnaly() {
           }
         });
 
-        $("#industry").change(function(e) {
+        $("#industry").change(function (e) {
           selectedInd = $(e.target).val();
 
           filterData = [];
@@ -935,7 +931,7 @@ export function initAnaly() {
           }
         });
 
-        $("#itbus").change(function(e) {
+        $("#itbus").change(function (e) {
           selectedITBU = $(e.target).val();
 
           filterData = [];
@@ -955,7 +951,7 @@ export function initAnaly() {
 
 
 
-        $("#country").change(function(e) {
+        $("#country").change(function (e) {
           selectedCon = $(e.target).val();
 
           filterData = [];
@@ -973,7 +969,7 @@ export function initAnaly() {
           }
         });
 
-        $("#products").change(function(e) {
+        $("#products").change(function (e) {
           selectedProd = $(e.target).val();
 
           filterData = [];
@@ -1003,7 +999,7 @@ export function initAnaly() {
 
   function count(ary, classifier) {
     classifier = classifier || String;
-    return ary.reduce(function(counter, item) {
+    return ary.reduce(function (counter, item) {
       var p = classifier(item);
       counter[p] = counter.hasOwnProperty(p) ? counter[p] + 1 : 1;
       return counter;
@@ -1011,7 +1007,7 @@ export function initAnaly() {
   }
 
   function shorten(arr, obj) {
-    arr.forEach(function(key) {
+    arr.forEach(function (key) {
       delete obj[key];
     });
     return obj;

@@ -4,15 +4,13 @@ All products,Board
 All products,CCH Tagetik
 All products,CoPlanner
 All products,Corporate Planning
-All products,evidanza
 All products,IBM Plan. Analytics
-All products,IDL
-All products,Infor d/EPM
 All products,Jedox
 All products,LucaNet
 All products,macs Software
 All products,OneStream
 All products,Oracle Cloud EPM
+All products,Planful
 All products,Prophix
 All products,SAP Analytics Cloud
 All products,SAP BPC
@@ -20,48 +18,46 @@ All products,Serviceware Perf.
 All products,Unit4 FP&A
 All products,Valsight
 All products,Workday Adapt. Plan.
-Integrated Corporate Planning Products,Anaplan
-Integrated Corporate Planning Products,Board
-Integrated Corporate Planning Products,CoPlanner
-Integrated Corporate Planning Products,Corporate Planning
-Integrated Corporate Planning Products,evidanza
-Integrated Corporate Planning Products,IBM Plan. Analytics
-Integrated Corporate Planning Products,Infor d/EPM
-Integrated Corporate Planning Products,Jedox
-Integrated Corporate Planning Products,macs Software
-Integrated Corporate Planning Products,Oracle Cloud EPM
-Integrated Corporate Planning Products,Prophix
-Integrated Corporate Planning Products,SAP Analytics Cloud
-Integrated Corporate Planning Products,Serviceware Perf.
-Integrated Corporate Planning Products,Unit4 FP&A
-Integrated Corporate Planning Products,Valsight
-Integrated Corporate Planning Products,Workday Adapt. Plan.
-Financial Performance Management Products,Board
-Financial Performance Management Products,CCH Tagetik
-Financial Performance Management Products,CoPlanner
-Financial Performance Management Products,Corporate Planning
-Financial Performance Management Products,IDL
-Financial Performance Management Products,Infor d/EPM
-Financial Performance Management Products,Jedox
-Financial Performance Management Products,LucaNet
-Financial Performance Management Products,OneStream
-Financial Performance Management Products,Oracle Cloud EPM
-Financial Performance Management Products,Prophix
-Financial Performance Management Products,SAP BPC
-Financial Performance Management Products,Unit4 FP&A
-Financial Performance Management Products,Workday Adapt. Plan.
-BI & Analytics Products,Board
-BI & Analytics Products,evidanza
-BI & Analytics Products,IBM Plan. Analytics
-BI & Analytics Products,Infor d/EPM
-BI & Analytics Products,Jedox
-BI & Analytics Products,Prophix
-BI & Analytics Products,SAP Analytics Cloud
-BI & Analytics Products,Serviceware Perf.
-BI & Analytics Products,Unit4 FP&A
+Planning-Focused Products,Anaplan
+Planning-Focused Products,Board
+Planning-Focused Products,CCH Tagetik
+Planning-Focused Products,CoPlanner
+Planning-Focused Products,Corporate Planning
+Planning-Focused Products,IBM Plan. Analytics
+Planning-Focused Products,Jedox
+Planning-Focused Products,LucaNet
+Planning-Focused Products,macs Software
+Planning-Focused Products,OneStream
+Planning-Focused Products,Oracle Cloud EPM
+Planning-Focused Products,Planful
+Planning-Focused Products,Prophix
+Planning-Focused Products,SAP Analytics Cloud
+Planning-Focused Products,SAP BPC
+Planning-Focused Products,Serviceware Perf.
+Planning-Focused Products,Unit4 FP&A
+Planning-Focused Products,Valsight
+Planning-Focused Products,Workday Adapt. Plan.
+Financial Consolidation-Focused Products,Board
+Financial Consolidation-Focused Products,CCH Tagetik
+Financial Consolidation-Focused Products,CoPlanner
+Financial Consolidation-Focused Products,Corporate Planning
+Financial Consolidation-Focused Products,Jedox
+Financial Consolidation-Focused Products,LucaNet
+Financial Consolidation-Focused Products,OneStream
+Financial Consolidation-Focused Products,Oracle Cloud EPM
+Financial Consolidation-Focused Products,Planful
+Financial Consolidation-Focused Products,Prophix
+Financial Consolidation-Focused Products,SAP BPC
+Financial Consolidation-Focused Products,Unit4 FP&A
+Financial Consolidation-Focused Products,Workday Adapt. Plan.
+BI & Analytics-Focused Products,Board
+BI & Analytics-Focused Products,IBM Plan. Analytics
+BI & Analytics-Focused Products,Jedox
+BI & Analytics-Focused Products,SAP Analytics Cloud
+BI & Analytics-Focused Products,Serviceware Perf.
 Business Software Generalists,CCH Tagetik
+Business Software Generalists,Corporate Planning
 Business Software Generalists,IBM Plan. Analytics
-Business Software Generalists,Infor d/EPM
 Business Software Generalists,Oracle Cloud EPM
 Business Software Generalists,SAP Analytics Cloud
 Business Software Generalists,SAP BPC
@@ -71,22 +67,19 @@ Business Software Generalists,Workday Adapt. Plan.
 Performance Management Specialists,Anaplan
 Performance Management Specialists,Board
 Performance Management Specialists,CoPlanner
-Performance Management Specialists,Corporate Planning
-Performance Management Specialists,evidanza
-Performance Management Specialists,IDL
 Performance Management Specialists,Jedox
 Performance Management Specialists,LucaNet
 Performance Management Specialists,macs Software
 Performance Management Specialists,OneStream
+Performance Management Specialists,Planful
 Performance Management Specialists,Prophix
 Performance Management Specialists,Valsight
 Midsize/Departmental Implementations,CoPlanner
 Midsize/Departmental Implementations,Corporate Planning
-Midsize/Departmental Implementations,evidanza
-Midsize/Departmental Implementations,IDL
 Midsize/Departmental Implementations,Jedox
 Midsize/Departmental Implementations,LucaNet
 Midsize/Departmental Implementations,macs Software
+Midsize/Departmental Implementations,Planful
 Midsize/Departmental Implementations,Prophix
 Midsize/Departmental Implementations,Serviceware Perf.
 Midsize/Departmental Implementations,Unit4 FP&A
@@ -96,7 +89,6 @@ Large/Enterprise-Wide Implementations,Anaplan
 Large/Enterprise-Wide Implementations,Board
 Large/Enterprise-Wide Implementations,CCH Tagetik
 Large/Enterprise-Wide Implementations,IBM Plan. Analytics
-Large/Enterprise-Wide Implementations,Infor d/EPM
 Large/Enterprise-Wide Implementations,OneStream
 Large/Enterprise-Wide Implementations,Oracle Cloud EPM
 Large/Enterprise-Wide Implementations,SAP Analytics Cloud
@@ -105,11 +97,11 @@ Global Vendors,Anaplan
 Global Vendors,Board
 Global Vendors,CCH Tagetik
 Global Vendors,IBM Plan. Analytics
-Global Vendors,Infor d/EPM
 Global Vendors,Jedox
 Global Vendors,LucaNet
 Global Vendors,OneStream
 Global Vendors,Oracle Cloud EPM
+Global Vendors,Prophix
 Global Vendors,SAP Analytics Cloud
 Global Vendors,SAP BPC
 Global Vendors,Unit4 FP&A

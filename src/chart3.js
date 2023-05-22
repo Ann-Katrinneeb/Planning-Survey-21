@@ -56,7 +56,7 @@ export function initProdKPI() {
   };
 
   var w = widthHelper3 - margin.left - margin.right;
-  var h = 850 - margin.top - margin.bottom;
+  var h = 875 - margin.top - margin.bottom;
 
   var widthRanks = 165;
   var barHeight5 = 12;
@@ -473,7 +473,7 @@ export function initProdKPI() {
       }
     })
     .attr("height", barHeight4)
-    .attr("fill", "#416ba4");
+    .attr("fill", "#006382");
 
   // Average bar
 
@@ -583,9 +583,7 @@ export function initProdKPI() {
           return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
         }
       })
-      .style("fill", "#416ba4");
-
-
+      .style("fill", "#006382");
 
 
     var KPIrankUp = svg3.selectAll("text.KPItext")
@@ -645,7 +643,7 @@ export function initProdKPI() {
           return (respHelp > 590) ? (d.Value * 10) : xScaleBar(d.Value);
         }
       })
-      .style("fill", "#416ba4");
+      .style("fill", "#4006382");
 
 
     // Average bar update
@@ -850,239 +848,307 @@ export function initProdKPI() {
     .attr("stroke", "white")
     .attr("stroke-width", "1")
 
-  // KPI Group 1 Lines
+// KPI Group 1 Lines
+
+var count5 = 0;
+var LineGroupBegin5 = 27;
+
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin5)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin5 + 12 + (2 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
+
+for (count5 = 0; count5 < 3; count5++) {
+
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count5))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count5))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
+
+// KPI Group 2 Lines
+
+var count = 0;
+var LineGroupBegin = 118;
+
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin + 12 + (5 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
+
+for (count = 0; count < 6; count++) {
+
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin + 12 + (SpaceLine * count))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin + 12 + (SpaceLine * count))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
 
 
-  				var count5 = 0;
-  				var LineGroupBegin5 = 27;
+// KPI Group 3 Lines
 
-  				svg3.append("line")
-  					.attr("class", "head")
-  					.attr("x1", -xLine)
-  					.attr("y1", LineGroupBegin5)
-  					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin5 + 12 + (2 * SpaceLine))
-  					.attr("stroke", "white")
-  					.attr("stroke-width", "1");
+var count1 = 0;
+var LineGroupBegin2 = 277;
 
-  				for (count5 = 0; count5 < 3; count5++) {
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin2)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin2 + 12 + (8 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
 
-  					svg3.append("line")
-  						.attr("class", "head")
-  						.attr("x1", -xLine)
-  						.attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count5))
-  						.attr("x2", -xLine2)
-  						.attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count5))
-  						.attr("stroke", "white")
-  						.attr("stroke-width", "1");
-  				}
+for (count1 = 0; count1 < 9; count1++) {
 
-  				// KPI Group 2 Lines
-
-  				var count = 0;
-  				var LineGroupBegin = 118;
-
-  				svg3.append("line")
-  					.attr("class", "head")
-  					.attr("x1", -xLine)
-  					.attr("y1", LineGroupBegin)
-  					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin + 12 + (4 * SpaceLine))
-  					.attr("stroke", "white")
-  					.attr("stroke-width", "1");
-
-  				for (count = 0; count < 5; count++) {
-
-  					svg3.append("line")
-  						.attr("class", "head")
-  						.attr("x1", -xLine)
-  						.attr("y1", LineGroupBegin + 12 + (SpaceLine * count))
-  						.attr("x2", -xLine2)
-  						.attr("y2", LineGroupBegin + 12 + (SpaceLine * count))
-  						.attr("stroke", "white")
-  						.attr("stroke-width", "1");
-  				}
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin2 + 12 + (SpaceLine * count1))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin2 + 12 + (SpaceLine * count1))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
 
 
-  				// KPI Group 3 Lines
+// KPI Group 4 Lines
 
-  				var count1 = 0;
-  				var LineGroupBegin2 = 252;
+var count2 = 0;
+var LineGroupBegin3 = 613;
 
-  				svg3.append("line")
-  					.attr("class", "head")
-  					.attr("x1", -xLine)
-  					.attr("y1", LineGroupBegin2)
-  					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin2 + 12 + (8 * SpaceLine))
-  					.attr("stroke", "white")
-  					.attr("stroke-width", "1");
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin3)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin3 + 11 + (2 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
 
-  				for (count1 = 0; count1 < 9; count1++) {
+for (count2 = 0; count2 < 3; count2++) {
 
-  					svg3.append("line")
-  						.attr("class", "head")
-  						.attr("x1", -xLine)
-  						.attr("y1", LineGroupBegin2 + 12 + (SpaceLine * count1))
-  						.attr("x2", -xLine2)
-  						.attr("y2", LineGroupBegin2 + 12 + (SpaceLine * count1))
-  						.attr("stroke", "white")
-  						.attr("stroke-width", "1");
-  				}
-
-
-  				// KPI Group 4 Lines
-
-  				// var count2 = 0;
-  				// var LineGroupBegin3 = 365;
-  				//
-  				// svg3.append("line")
-  				// 	.attr("class", "head")
-  				// 	.attr("x1", -xLine)
-  				// 	.attr("y1", LineGroupBegin3)
-  				// 	.attr("x2", -xLine)
-  				// 	.attr("y2", LineGroupBegin3 + 11 + (3 * SpaceLine))
-  				// 	.attr("stroke", "grey")
-  				// 	.attr("stroke-width", "0.3");
-
-  				// for (count2 = 0; count2 < 4; count2++) {
-  				//
-  				// 	svg3.append("line")
-  				// 		.attr("class", "head")
-  				// 		.attr("x1", -xLine)
-  				// 		.attr("y1", LineGroupBegin3 + 11 + (SpaceLine * count2))
-  				// 		.attr("x2", -xLine2)
-  				// 		.attr("y2", LineGroupBegin3 + 11 + (SpaceLine * count2))
-  				// 		.attr("stroke", "grey")
-  				// 		.attr("stroke-width", "0.3");
-  				// }
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin3 + 11 + (SpaceLine * count2))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin3 + 11 + (SpaceLine * count2))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
 
 
-  				// KPI Group 5 Lines
+// KPI Group 5 Lines
 
-  				var count3 = 0;
-  				var LineGroupBegin4 = 477;
+var count3 = 0;
+var LineGroupBegin4 = 501;
 
-  				svg3.append("line")
-  					.attr("class", "head")
-  					.attr("x1", -xLine)
-  					.attr("y1", LineGroupBegin4)
-  					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin4 + 12 + (4 * SpaceLine))
-  					.attr("stroke", "white")
-  					.attr("stroke-width", "1");
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin4)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin4 + 12 + (3 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
 
-  				for (count3 = 0; count3 <5; count3++) {
+for (count3 = 0; count3 < 4; count3++) {
 
-  					svg3.append("line")
-  						.attr("class", "head")
-  						.attr("x1", -xLine)
-  						.attr("y1", LineGroupBegin4 + 12 + (SpaceLine * count3))
-  						.attr("x2", -xLine2)
-  						.attr("y2", LineGroupBegin4 + 12 + (SpaceLine * count3))
-  						.attr("stroke", "white")
-  						.attr("stroke-width", "1");
-  				}
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin4 + 12 + (SpaceLine * count3))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin4 + 12 + (SpaceLine * count3))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
 
-  				// KPI Group 6 Lines
+// KPI Group 6 Lines
 
-  				var count4 = 0;
-  				var LineGroupBegin5 = 612;
+var count4 = 0;
+var LineGroupBegin5 = 702;
 
-  				svg3.append("line")
-  					.attr("class", "head")
-  					.attr("x1", -xLine)
-  					.attr("y1", LineGroupBegin5)
-  					.attr("x2", -xLine)
-  					.attr("y2", LineGroupBegin5 + 12 + (1 * SpaceLine))
-  					.attr("stroke", "white")
-  					.attr("stroke-width", "1");
+svg3.append("line")
+  .attr("class", "head")
+  .attr("x1", -xLine)
+  .attr("y1", LineGroupBegin5)
+  .attr("x2", -xLine)
+  .attr("y2", LineGroupBegin5 + 12 + (1 * SpaceLine))
+  .attr("stroke", "grey")
+  .attr("stroke-width", "0.3");
 
-  				for (count4 = 0; count4 <2; count4++) {
+for (count4 = 0; count4 < 2; count4++) {
 
-  					svg3.append("line")
-  						.attr("class", "head")
-  						.attr("x1", -xLine)
-  						.attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count4))
-  						.attr("x2", -xLine2)
-  						.attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count4))
-  						.attr("stroke", "white")
-  						.attr("stroke-width", "1");
-  				}
+  svg3.append("line")
+    .attr("class", "head")
+    .attr("x1", -xLine)
+    .attr("y1", LineGroupBegin5 + 12 + (SpaceLine * count4))
+    .attr("x2", -xLine2)
+    .attr("y2", LineGroupBegin5 + 12 + (SpaceLine * count4))
+    .attr("stroke", "grey")
+    .attr("stroke-width", "0.3");
+}
 
-  // Legend
+// Legend
 
-  var LegTrans3 = svg3.append("g").attr("class", "legendText")
-    .attr("transform", "translate(" + legend.left + "," + legend.top + ")");
-
-  var LegTrans = LegTrans3.append("g").attr("class", "legendText3")
-    .style("display", (respHelp > 590) ? "block" : "none");
+var LegTrans = svg3.append("g").attr("class", "legendText")
+  .attr("transform", "translate(" + legend.left + "," + legend.top + ")");
 
 
-  LegTrans.append("rect")
-    .attr("x", -127)
-    .attr("y", 461 + yLegend)
-    .attr("width", 10)
-    .attr("height", 10)
-    .style("fill", "#f2686f");
+LegTrans.append("text")
+  .attr("x", 180)
+  .attr("y", 530 + yLegend)
+  .attr("class", "legendText")
+  .style("font-style", "italic")
+  .style("font-size", 9.5)
+  .text("= Average of peer group");
 
-  LegTrans.append("text")
-    .attr("x", -150)
-    .attr("y", 487 + yLegend)
-    .style("font-style", "italic")
-    .style("font-size", 10)
-    .text("Last ranked ")
-    .append("tspan")
-    .attr("x", -146)
-    .attr("y", 499 + yLegend)
-    .text("product in ")
-    .append("tspan")
-    .attr("x", -149)
-    .attr("y", 511 + yLegend)
-    .text("peer group");
+LegTrans.append("line")
+  .attr("x1", 177)
+  .attr("y1", 519 + yLegend)
+  .attr("x2", 177)
+  .attr("y2", 534 + yLegend)
+  .style("stroke", "#ffffff");
 
-  LegTrans.append("text")
-    .attr("x", -60)
-    .attr("y", 487 + yLegend)
-    .style("font-style", "italic")
-    .style("font-size", 10)
-    .text("Best ranked ")
-    .append("tspan")
-    .attr("x", -56)
-    .attr("y", 499 + yLegend)
-    .text("product in ")
-    .append("tspan")
-    .attr("x", -58)
-    .attr("y", 511 + yLegend)
-    .text("peer group");
+LegTrans.append("text")
+  .attr("x", 21)
+  .attr("y", 530 + yLegend)
+  .style("font-style", "italic")
+  .attr("class", "legendText")
+  .style("font-size", 9.5)
+  .text("1.0");
 
-  LegTrans.append("rect")
-    .attr("x", -105)
-    .attr("y", 461 + yLegend)
-    .attr("width", 10)
-    .attr("height", 10)
-    .style("fill", "#f79154");
+LegTrans.append("text")
+  .attr("x", 133)
+  .attr("y", 530 + yLegend)
+  .style("font-style", "italic")
+  .style("font-size", 9.5)
+  .attr("class", "legendText")
+  .text("10.0");
 
-  LegTrans.append("rect")
-    .attr("x", -83)
-    .attr("y", 461 + yLegend)
-    .attr("width", 10)
-    .attr("height", 10)
-    .style("fill", "#ffbf00");
+LegTrans.append("rect")
+  .attr("x", -127)
+  .attr("y", 521 + yLegend)
+  .attr("width", 10)
+  .attr("height", 10)
+  .style("fill", "#f2686f");
 
-  LegTrans.append("rect")
-    .attr("x", -61)
-    .attr("y", 461 + yLegend)
-    .attr("width", 10)
-    .attr("height", 10)
-    .style("fill", "#adc537");
+LegTrans.append("text")
+  .attr("x", -150)
+  .attr("y", 547 + yLegend)
+  .style("font-style", "italic")
+  .style("font-size", 9.5)
+  .attr("class", "legendText")
+  .text("Last ranked ")
+  .append("tspan")
+  .attr("x", -146)
+  .attr("y", 559 + yLegend)
+  .text("product in ")
+  .append("tspan")
+  .attr("x", -149)
+  .attr("y", 571 + yLegend)
+  .text("peer group");
 
-  LegTrans.append("rect")
-    .attr("x", -39)
-    .attr("y", 461 + yLegend)
-    .attr("width", 10)
-    .attr("height", 10)
-    .style("fill", "#42b648");
+LegTrans.append("text")
+  .attr("x", -60)
+  .attr("y", 547 + yLegend)
+  .style("font-size", 9.5)
+  .style("font-style", "italic")
+  .attr("class", "legendText")
+  .text("Best ranked ")
+  .append("tspan")
+  .attr("x", -56)
+  .attr("y", 559 + yLegend)
+  .text("product in ")
+  .append("tspan")
+  .attr("x", -58)
+  .attr("y", 571 + yLegend)
+  .text("peer group");
+
+LegTrans.append("rect")
+  .attr("x", -105)
+  .attr("y", 521 + yLegend)
+  .attr("width", 10)
+  .attr("height", 10)
+  .style("fill", "#f79154");
+
+LegTrans.append("rect")
+  .attr("x", -83)
+  .attr("y", 521 + yLegend)
+  .attr("width", 10)
+  .attr("height", 10)
+  .style("fill", "#ffbf00");
+
+LegTrans.append("rect")
+  .attr("x", -61)
+  .attr("y", 521 + yLegend)
+  .attr("width", 10)
+  .attr("height", 10)
+  .style("fill", "#adc537");
+
+LegTrans.append("rect")
+  .attr("x", -39)
+  .attr("y", 521 + yLegend)
+  .attr("width", 10)
+  .attr("height", 10)
+  .style("fill", "#42b648");
+
+LegTrans.append("rect")
+  .attr("x", 40)
+  .attr("y", 523 + yLegend)
+  .attr("width", 90)
+  .attr("height", barHeight4)
+  .style("fill", "#006382");
+
+LegTrans.append("text")
+  .attr("x", 26)
+  .attr("y", 547 + yLegend)
+  .style("font-style", "italic")
+  .attr("class", "legendText")
+  .style("font-size", 9.5)
+  .text("Worst")
+  .append("tspan")
+  .attr("x", 22)
+  .attr("y", 559 + yLegend)
+  .text("product")
+  .append("tspan")
+  .attr("x", 19)
+  .attr("y", 571 + yLegend)
+  .text("(Overall)");
+
+LegTrans.append("text")
+  .attr("x", 118)
+  .attr("y", 547 + yLegend)
+  .style("font-style", "italic")
+  .style("font-size", 9.5)
+  .attr("class", "legendText")
+  .text("Best")
+  .append("tspan")
+  .attr("x", 110)
+  .attr("y", 559 + yLegend)
+  .text("product")
+  .append("tspan")
+  .attr("x", 107)
+  .attr("y", 571 + yLegend)
+  .text("(Overall)");
 
 
   var legendleft2 = (respHelp > 590) ? 0 : -230;
@@ -1095,7 +1161,7 @@ export function initProdKPI() {
     .attr("y", 463 + yLegend)
     .attr("width", 90)
     .attr("height", barHeight4)
-    .style("fill", "#416ba4");
+    .style("fill", "#006382");
 
   LegTrans2.append("text")
     .attr("x", 26)

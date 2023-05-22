@@ -83,9 +83,9 @@ function keys(d) {
     .attr("height", barHeightKPI / 2.5)
     .attr("fill", function(d) {
       if (d.vendor == "Peer Group Average") {
-        return "#FCC00E";
+        return "#ef7d00";
       } else {
-        return "#8E9499";
+        return "#006382";
       }
     });
 
@@ -201,9 +201,9 @@ var vendorlabels = svgKPI.append("g")
     barsupdateKPI
       .attr("fill", function(d) {
         if (d.vendor == "Peer Group Average") {
-          return "#FCC00E";
+          return "#ef7d00";
         } else {
-          return "#8E9499";
+          return "#006382";
         }
       })
       .transition()
@@ -217,9 +217,9 @@ var vendorlabels = svgKPI.append("g")
       .append("rect")
       .attr("fill", function(d) {
         if (d.vendor == "Peer Group Average") {
-          return "#FCC00E";
+          return "#ef7d00";
         } else {
-          return "#8E9499";
+          return "#006382";
         }
       })
       .attr("x", 0)

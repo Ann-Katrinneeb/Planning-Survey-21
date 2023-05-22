@@ -50,8 +50,8 @@
 }
 
 .btn-light {
-  background-color: #c8cacc;
-  border-color: #c8cacc;
+  background-color: #cce0e6;
+  border-color: #cce0e6;
 }
 
 .row {
@@ -178,7 +178,7 @@
 }
 
 h1, h2, h3, h4, h5 {
-  color: #636d76;
+  color: #006382;
 }
 
 .scrollable-menu {
@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5 {
   padding-right: 35px;
   text-overflow: ellipsis;
   white-space: nowrap;
+  background-color: #cce0e6;
   overflow: hidden;
 }
 
@@ -212,7 +213,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #chart3 text {
-  fill: #666;
+  fill: #6e6e6d;
   font-size: 14px;
 }
 
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5 {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #F3931A;
+  background-color: #33829b;
 }
 
 #chartHelpText {
@@ -235,30 +236,30 @@ h1, h2, h3, h4, h5 {
   padding-top: 3.5rem;
   padding-bottom: 2.5rem;
   font-size:1.1rem;
-  color:#647f99;
+  color:#cce0e6;
   font-weight: 500;
 
 }
 
 a.btn {
-  background-color: #8e9499;
+  background-color: #cce0e6;
   margin-bottom: 45px;
   margin-top: 10px;
 }
 
 a.btn:hover {
-  background-color: #636D76;
+  background-color: #33829b;
 }
 
 .card-header, a {
-  color: #8e9499;
+  color: #33829b;
   padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .card-header a:hover {
-  color: #F3931A;
+  color: #006382;
   text-decoration: none;
 }
 
@@ -267,7 +268,7 @@ a.btn:hover {
   margin-top: 5rem;
   margin-bottom: 5rem;
   font-weight: 400;
-  color: gray;
+  color: #929292;
 }
 
 #linHigh a {
@@ -401,7 +402,7 @@ body {
   position: absolute;
   bottom: 0;
   height: 3px;
-  background: #f3931a;
+  background: #66a1b4;
 }
 
 .sectionsContainer {
@@ -955,8 +956,8 @@ select.bs-select-hidden, select.selectpicker {
 
 .btn-custom {
   color: white;
-  background-color: #f3931a;
-  border-color: #f3931a;
+  background-color: #33829b;
+  border-color: #33829b;
 }
 
 .btn-custom a {
@@ -965,8 +966,8 @@ select.bs-select-hidden, select.selectpicker {
 
 .btn-custom:hover, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom {
   color: white;
-  background-color: #E6BD45;
-  border-color: #E6BD45;
+  background-color: #33829b;
+  border-color: #33829b;
 }
 
 .btn-custom:active, .btn-custom.active, .btn-custom:focus {
@@ -1056,7 +1057,7 @@ select.bs-select-hidden, select.selectpicker {
 footer {
   background-color: #FFFFFF;
   text-align: center;
-  color: #bf6f14;
+  color: #33829b;
 }
 
 .footerdiv {
@@ -1069,14 +1070,14 @@ footer a {
 }
 
 footer a:hover {
-  color: #bf6f14;
+  color: #33829b;
 }
 
 .disclaimer {
   padding-bottom: 50px;
   padding: 40px 68px;
   color: #FFFFFF;
-  background-color: #bf6f14;
+  background-color: #33829b;
   line-height: 1.7rem;
 }
 
@@ -1114,16 +1115,16 @@ footer a:hover {
   bottom: 0px;
   right: 40px;
   display: none;
-  background-color: #90A1B1;
+  background-color: #6e6e6d;
   border: none;
 }
 
 .question {
-  color: #90A1B1;
+  color: #6e6e6d;
 }
 
 .btn.back-to-top:hover, .btn.back-to-top:active {
-  background-color: #90A1B1;
+  background-color: #6e6e6d;
 }
 
 .fillerp a {
@@ -1147,13 +1148,13 @@ footer a:hover {
   max-width: 250px;
   margin: 0 auto;
   white-space: normal;
-  border-color: #D5AD36;
+  border-color: #33829b;
   border-width: 2px;
   padding: 25px;
 }
 
 .closer .btn:hover {
-  border-color: #E6BD45;
+  border-color: #33829b;
 }
 
 #specialbtn {
@@ -1164,9 +1165,9 @@ footer a:hover {
 }
 
 #specialbtn:hover {
-  background-color: #D5AD36;
+  background-color: #33829b;
   color: white;
-  border-color: #D5AD36;
+  border-color: #33829b;
 }
 
 .heartbeat {
@@ -1242,7 +1243,7 @@ footer a:hover {
 }
 
 .navwide2 {
-  background-color: #bf6f14;
+  background-color: #33829b;
 }
 
 h1 {
@@ -1318,7 +1319,7 @@ h1 {
 }
 
 #analyzer, #kpidash, #Compdash, #CompInd {
-  background-color: #e9eaeb;
+  background-color: #e6eff3;
   max-width: 80rem;
   margin: 0px auto;
   padding-top: 4rem;
@@ -4617,7 +4618,7 @@ h1 {
   max-width: 700px;
   flex-grow: 1;
   padding: 30px 10px 20px;
-  box-shadow: 0 1px 3px #8e9499;
+  box-shadow: 0 1px 3px #929292;
   border: none;
   border-radius: 3px;
   background-color: #fff;

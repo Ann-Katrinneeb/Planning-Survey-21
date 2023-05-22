@@ -141,7 +141,7 @@ export function initProdComp() {
       return xScale5(d.value);
     })
     .attr("height", barHeightKPIComp / 2.5)
-    .attr("fill", "#8E9499");
+    .attr("fill", "#006382");
 
   var vendorlabels5 = svg5.selectAll("text.prodText")
     .data(function(d) {
@@ -359,7 +359,7 @@ export function initProdComp() {
         return xScale5(d.value);
       })
       .attr("height", barHeightKPIComp / 2.5)
-      .attr("fill", "#8E9499");
+      .attr("fill", "#006382");
 
 
     var vendorlabels5up = svg5Up.selectAll(".prodText")
