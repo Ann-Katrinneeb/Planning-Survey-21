@@ -379,7 +379,7 @@ export function initProdKPI() {
       if (d.Product == product) {
         if (d.Rank == 1) {
           return "#42b648";
-        } else if ((d.Rank-1) / (d.counter-1) <= 0.3) {
+        } else if ((d.Rank-1) / (d.counter-1) < 0.3) {
           return "#adc537";
         } else if (d.Rank / d.counter == 1) {
           return "#f2686f";
@@ -530,7 +530,7 @@ export function initProdKPI() {
           if (d.Product == updateProduct) {
             if (d.Rank == 1) {
               return "#42b648";
-            } else if ((d.Rank-1) / (d.counter-1) <= 0.3) {
+            } else if ((d.Rank-1) / (d.counter-1) < 0.3) {
               return "#adc537";
             } else if (d.Rank / d.counter == 1) {
               return "#f2686f";
@@ -789,7 +789,7 @@ export function initProdKPI() {
           if (d.Product == productDummy) {
             if (d.Rank == 1) {
               return "#42b648";
-            } else if ((d.Rank-1) / (d.counter-1) <= 0.3) {
+            } else if ((d.Rank-1) / (d.counter-1) < 0.3) {
               return "#adc537";
             } else if (d.Rank / d.counter == 1) {
               return "#f2686f";
